@@ -1,0 +1,111 @@
+@import 'general/variables', 'general/utility';
+
+/*
+    Reset
+*/
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* 
+    Remove list styles on ul, ol elements with a list role, 
+    which suggests default styling will be removed 
+*/
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* 
+    Remove all animations, transitions and smooth scroll 
+    for people that prefer not to see them 
+*/
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Font Families */
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+// Page Styling
+
+.section {
+    scroll-margin-top: 60px;
+    padding-block: 2em;
+
+    .details {
+        margin: 0 1em 1.5rem;
+
+        h1,
+        p {
+            color: $clr-dark;
+        }
+
+        h1 {
+            font-size: $fs-700;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin-block: 0.5rem;
+            color: $clr-dark;
+            font-size: $fs-300;
+        }
+    }
+}

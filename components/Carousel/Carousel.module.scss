@@ -1,0 +1,6 @@
+.carousel {
+    display: flex;
+    scroll-snap-type: x proximity;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+}

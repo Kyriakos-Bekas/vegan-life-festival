@@ -1,0 +1,53 @@
+@import '@/styles/general/variables';
+
+.item {
+    margin-block: 0.5rem;
+    list-style: none;
+
+    article {
+        padding: 0.5em 0.75rem 1em 0.75rem;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: $gap;
+
+        .data {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: $gap;
+
+            .name {
+                font-size: 1.0625rem;
+            }
+
+            .divider {
+                border-radius: 50%;
+                width: 4px;
+                height: 4px;
+                background-color: $clr-dark;
+            }
+
+            .number {
+                font-size: 0.9375rem;
+            }
+        }
+
+        .link {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                transform: scale(1.25);
+            }
+        }
+
+        &:has(.link):hover {
+            background-color: #f5f5f5;
+            cursor: pointer;
+        }
+    }
+}

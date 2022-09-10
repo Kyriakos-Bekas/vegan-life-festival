@@ -1,0 +1,48 @@
+@import '@/styles/general/variables';
+
+.slide {
+    padding-inline: 1em;
+
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 288px;
+    height: 100%;
+
+    .thumbnail {
+        width: 100%;
+    }
+
+    .details {
+        padding-top: 0.75rem;
+
+        .sub {
+            margin-bottom: 0.5rem;
+        }
+
+        .description {
+            margin-top: 0.5rem;
+        }
+
+        .duration {
+            margin-top: 0.75rem;
+            color: #115359;
+            font-weight: 800;
+        }
+    }
+
+    &:not(:last-of-type) {
+        border-right: 2px solid $clr-dark;
+    }
+
+    &.workshop {
+        width: 340px;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: $gap;
+
+        .thumbnail {
+            width: 50%;
+            object-fit: cover;
+        }
+    }
+}

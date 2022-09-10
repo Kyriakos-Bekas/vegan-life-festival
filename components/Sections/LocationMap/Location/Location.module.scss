@@ -1,0 +1,23 @@
+.location {
+    .details {
+        margin: 0 1em 1.25rem;
+
+        .title {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            svg {
+                margin-right: 0.5em;
+            }
+        }
+
+        .features {
+            margin-left: 2.5em;
+        }
+    }
+
+    &:not(:first-of-type) {
+        margin-top: 2rem;
+    }
+}

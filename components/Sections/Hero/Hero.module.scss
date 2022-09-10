@@ -1,0 +1,69 @@
+@import '@/styles/general/variables';
+
+.hero {
+    padding: 2em 1em;
+    min-height: 70vh;
+    background-color: $clr-accent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & > h1 {
+        margin-top: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: stretch;
+
+        span {
+            display: inline-block;
+            line-height: 1;
+        }
+
+        .place-athens {
+            font-weight: 500;
+        }
+
+        .place-2022 {
+            font-size: 2.5rem;
+            font-weight: 800;
+        }
+    }
+
+    .subtitles {
+        margin-top: 2rem;
+
+        h3 {
+            padding: 0.35rem 1.25rem;
+            background-color: #ce4a33;
+            display: flex;
+            justify-content: center;
+        }
+
+        .subtitle-0 {
+            rotate: -4deg;
+        }
+
+        .subtitle-1 {
+            rotate: 3.5deg;
+            font-weight: 500;
+            box-shadow: 1px 1px 1px 0 0.5px hsl(9, 61%, 20%);
+        }
+    }
+
+    .about {
+        margin-top: auto;
+        text-align: center;
+
+        .location {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                margin-right: 4px;
+            }
+        }
+    }
+}
