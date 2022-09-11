@@ -1,0 +1,9 @@
+@import '@/styles/general/variables';
+
+.container {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $gap;
+}

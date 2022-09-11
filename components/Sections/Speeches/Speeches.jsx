@@ -1,8 +1,9 @@
 import Carousel from '@/components/Carousel/Carousel';
 import { text } from '@/data/data';
+import { useLocaleContext } from '@/hooks/useLocaleContext';
 
 const Speeches = () => {
-    const locale = 'gr';
+    const { locale } = useLocaleContext();
     const { title, description, speeches } = text[locale].speeches;
 
     return (
@@ -12,7 +13,7 @@ const Speeches = () => {
                 <p>{description}</p>
             </div>
 
-            <Carousel type="speech" />
+            <Carousel type="speech" slides={speeches} />
         </section>
     );
 };

@@ -1,0 +1,31 @@
+@import '@/styles/general/variables';
+
+.activities {
+    padding: 1em;
+    font-weight: 700;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    .activity {
+        position: relative;
+        margin-block: 0.25rem;
+        padding-inline: 0.5rem;
+
+        &:not(:last-of-type) {
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                right: 0;
+                border-radius: 50%;
+                width: 6px;
+                height: 6px;
+                background-color: $clr-accent;
+                opacity: 0.5;
+                transform: translate(50%, -50%);
+            }
+        }
+    }
+}

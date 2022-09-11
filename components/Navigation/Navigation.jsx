@@ -1,13 +1,14 @@
 import { text } from '@/data/data';
+import { useLocaleContext } from '@/hooks/useLocaleContext';
 import Link from 'next/link';
 import { useRef } from 'react';
 import styles from './Navigation.module.scss';
 
-const Navigation = ({ locale = 'gr' }) => {
-    // * Start of temp locale
+const Navigation = () => {
+    const { locale, dispatch } = useLocaleContext();
+
     const { navLinks: navLinksEN } = text.en;
     const { navLinks } = text[locale];
-    // * End of temp locale
 
     const navigation = useRef();
     const overlay = useRef();
@@ -123,7 +124,9 @@ const Navigation = ({ locale = 'gr' }) => {
                                         : ''
                                 }`}
                             >
-                                <a>{`${link[0].toUpperCase()}${link.substring(
+                                <a
+                                    onClick={handleClick}
+                                >{`${link[0].toUpperCase()}${link.substring(
                                     1
                                 )}`}</a>
                             </Link>
@@ -185,8 +188,8 @@ const Navigation = ({ locale = 'gr' }) => {
             </div>
 
             <div className={styles.locale}>
-                <Link href="#">
-                    <a>EN</a>
+                <Link href={locale === 'gr' ? '/en' : '/'}>
+                    <a>{locale === 'gr' ? 'EN' : 'GR'}</a>
                 </Link>
             </div>
 

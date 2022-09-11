@@ -1,72 +1,13 @@
 import { DownIcon } from '@/components/Icons/Icons';
 import { useAlphabetically } from '@/hooks/useAlphabetically';
+import { useLocaleContext } from '@/hooks/useLocaleContext';
 import { useState } from 'react';
 import style from './ExhibitorList.module.scss';
 import ExhibitorListItem from './ExhibitorListItem/ExhibitorListItem';
 
-const listEN = [
-    {
-        name: 'John Doe',
-        number: 123,
-        sponsor: true,
-        link: '#',
-    },
-    {
-        name: 'Owen Wilson',
-        number: 32,
-        sponsor: false,
-        link: '#',
-    },
-    {
-        name: 'Zendaya',
-        number: 80,
-        sponsor: false,
-        link: '',
-    },
-    {
-        name: 'Aaron Paul',
-        number: 24,
-        sponsor: true,
-        link: '#',
-    },
-];
-
-const listGR = [
-    {
-        name: 'Γιάννης Παπαδόπουλος',
-        number: 123,
-        sponsor: true,
-        link: '#',
-    },
-    {
-        name: 'Γιώργος Ηλιάδης',
-        number: 105,
-        sponsor: true,
-        link: '',
-    },
-    {
-        name: 'Ορφέας Γεωργίου',
-        number: 32,
-        sponsor: false,
-        link: '#',
-    },
-    {
-        name: 'Ζαχαρίας Καραγιάννης',
-        number: 80,
-        sponsor: false,
-        link: '#',
-    },
-    {
-        name: 'Άρτεμις Ιορδάνου',
-        number: 24,
-        sponsor: true,
-        link: '#',
-    },
-];
-
-const ExhibitorList = () => {
+const ExhibitorList = ({ exhibitors }) => {
     const [collapsed, setCollapsed] = useState(true);
-    const locale = 'gr';
+    const { locale } = useLocaleContext();
 
     const text =
         locale === 'en'
@@ -77,9 +18,7 @@ const ExhibitorList = () => {
             ? 'Εμφάνιση λίστας'
             : 'Απόκρυψη λίστας';
 
-    const list = locale === 'en' ? listEN : listGR;
-
-    const arrays = useAlphabetically(list, locale);
+    const arrays = useAlphabetically(exhibitors, locale);
 
     return (
         <div className={`${style.list} ${collapsed ? style.collapsed : ''}`}>

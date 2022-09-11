@@ -1,10 +1,11 @@
 import { LocationIcon } from '@/components/Icons/Icons';
 import { text } from '@/data/data';
+import { useLocaleContext } from '@/hooks/useLocaleContext';
 import Image from 'next/image';
 import style from './Hero.module.scss';
 
 const Hero = () => {
-    const locale = 'gr';
+    const { locale } = useLocaleContext();
     const { athens, subtitle, date, location } = text[locale].hero;
 
     return (
@@ -16,7 +17,7 @@ const Hero = () => {
                 <span className={style['place-2022']}>2022</span>
             </h1>
 
-            <div className={`${style.subtitles} text-white`}>
+            <div className={`${style.subtitles} ff-giveaway text-white`}>
                 <h3 className={style['subtitle-0']}>{subtitle[0]}</h3>
                 <h3 className={style['subtitle-1']}>{subtitle[1]}</h3>
             </div>

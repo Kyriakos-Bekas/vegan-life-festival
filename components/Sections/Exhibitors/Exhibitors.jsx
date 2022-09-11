@@ -1,10 +1,11 @@
 import { SearchIcon } from '@/components/Icons/Icons';
 import { text } from '@/data/data';
+import { useLocaleContext } from '@/hooks/useLocaleContext';
 import ExhibitorList from './ExhibitorList/ExhibitorList';
 import style from './Exhibitors.module.scss';
 
 const Exhibitors = () => {
-    const locale = 'gr';
+    const { locale } = useLocaleContext();
     const { title, description, exhibitors } = text[locale].exhibitors;
 
     const placeholder =
@@ -29,7 +30,7 @@ const Exhibitors = () => {
                 <SearchIcon />
             </div>
 
-            <ExhibitorList />
+            <ExhibitorList exhibitors={exhibitors} />
         </section>
     );
 };

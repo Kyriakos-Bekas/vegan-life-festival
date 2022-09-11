@@ -1,0 +1,38 @@
+@import '@/styles/general/variables';
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: $gap;
+}
+
+.sponsors {
+    position: relative;
+    margin-top: 2em;
+    padding-block: 4em;
+    background-color: #f5fafa;
+
+    .container {
+        padding-inline: 1em;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: $gap;
+    }
+
+    .leaves-top {
+        position: absolute;
+        top: 1em;
+        right: 0;
+        pointer-events: none;
+        user-select: none;
+    }
+
+    .leaves-bottom {
+        position: absolute;
+        bottom: 1em;
+        left: 0;
+        pointer-events: none;
+        user-select: none;
+    }
+}
