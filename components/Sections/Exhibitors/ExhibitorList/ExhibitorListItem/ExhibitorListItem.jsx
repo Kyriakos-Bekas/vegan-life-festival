@@ -1,9 +1,11 @@
 import { LinkIcon, StarIcon } from '@/components/Icons/Icons';
+import { useLocaleContext } from '@/hooks/useLocaleContext';
 import Link from 'next/link';
 import style from './ExhibitorListItem.module.scss';
 
 const ExhibitorListItem = ({ exhibitor }) => {
-    const { name, number, sponsor, link } = exhibitor;
+    const { name, number, sponsor, slug } = exhibitor;
+    const { locale } = useLocaleContext();
 
     return (
         <li className={style.item}>
@@ -15,8 +17,8 @@ const ExhibitorListItem = ({ exhibitor }) => {
                     <div className={style.divider}></div>
                     <p className={`${style.number} text-gray`}>{number}</p>
                 </div>
-                {link && (
-                    <Link href={link}>
+                {slug && (
+                    <Link href={`${locale === 'en' ? '/en' : '/'}${slug}`}>
                         <a className={style.link}>
                             <LinkIcon />
                         </a>

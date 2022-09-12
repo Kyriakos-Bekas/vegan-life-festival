@@ -1,3 +1,5 @@
+import { exhibitors } from './exhibitors';
+
 export const gr = {
     navLinks: [
         'αρχική',
@@ -194,38 +196,7 @@ export const gr = {
         title: 'Εκθετες',
         description:
             'Δες την λίστα των εκθέτων ή αναζήτησε κατευθείαν τον εκθέτη που θες να επισκεφτείς',
-        exhibitors: [
-            {
-                name: 'Γιάννης Παπαδόπουλος',
-                number: 123,
-                sponsor: true,
-                link: '#',
-            },
-            {
-                name: 'Γιώργος Ηλιάδης',
-                number: 105,
-                sponsor: true,
-                link: '',
-            },
-            {
-                name: 'Ορφέας Γεωργίου',
-                number: 32,
-                sponsor: false,
-                link: '#',
-            },
-            {
-                name: 'Ζαχαρίας Καραγιάννης',
-                number: 80,
-                sponsor: false,
-                link: '#',
-            },
-            {
-                name: 'Άρτεμις Ιορδάνου',
-                number: 24,
-                sponsor: true,
-                link: '#',
-            },
-        ],
+        list: exhibitors.gr,
     },
     transport: {
         title: 'Μετακινηση',

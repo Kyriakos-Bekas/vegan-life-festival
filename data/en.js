@@ -1,3 +1,5 @@
+import { exhibitors } from './exhibitors';
+
 export const en = {
     navLinks: [
         'home',
@@ -192,32 +194,7 @@ export const en = {
         title: 'Exhibitors',
         description:
             'Check out the list of exhibitors or search for a specific one',
-        exhibitors: [
-            {
-                name: 'John Doe',
-                number: 123,
-                sponsor: true,
-                link: '#',
-            },
-            {
-                name: 'Owen Wilson',
-                number: 32,
-                sponsor: false,
-                link: '#',
-            },
-            {
-                name: 'Zendaya',
-                number: 80,
-                sponsor: false,
-                link: '',
-            },
-            {
-                name: 'Aaron Paul',
-                number: 24,
-                sponsor: true,
-                link: '#',
-            },
-        ],
+        list: exhibitors.en,
     },
     transport: {
         title: 'Transport',
