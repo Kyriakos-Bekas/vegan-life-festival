@@ -24,7 +24,6 @@ export async function getStaticProps(context) {
 }
 
 const PersonalPage = ({ slug }) => {
-    console.log('slug: ', slug);
     const { locale } = useLocaleContext();
     // const { name, webAddress, number, bio, sponsor, products, links } =
     const exhibitor = text[locale].exhibitors.list.find(

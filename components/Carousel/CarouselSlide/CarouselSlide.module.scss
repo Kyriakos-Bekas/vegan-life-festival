@@ -1,6 +1,7 @@
 @import '@/styles/general/variables';
 
 .slide {
+    position: relative;
     padding-inline: 1em;
 
     scroll-snap-align: start;
@@ -43,6 +44,26 @@
         .thumbnail {
             width: 50%;
             object-fit: cover;
+        }
+    }
+
+    &.finished {
+        &::after {
+            content: attr(data-finished);
+            position: absolute;
+            top: 0.5rem;
+            right: calc(0.5rem + 1em);
+            padding: 0.25rem 0.5rem;
+            color: $clr-dark;
+            font-size: $fs-300;
+            font-weight: 700;
+            background-color: $clr-white;
+        }
+
+        * {
+            opacity: 0.85;
+            filter: grayscale(100%);
+            pointer-events: none;
         }
     }
 }

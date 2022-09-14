@@ -1,8 +1,8 @@
 @import '@/styles/general/variables';
 
 .hero {
-    padding: 2em 1em;
-    min-height: 70vh;
+    padding: 2.5em 1em;
+    height: min(80vh, 600px);
     background-color: $clr-accent;
     display: flex;
     flex-direction: column;
@@ -42,6 +42,11 @@
             justify-content: center;
         }
 
+        .subtitle-0,
+        .subtitle-1 {
+            box-shadow: 1px 1px 5px -5px hsla(9, 61%, 20%, 0.5);
+        }
+
         .subtitle-0 {
             font-weight: 700;
             rotate: -4deg;
@@ -50,7 +55,6 @@
         .subtitle-1 {
             rotate: 3.5deg;
             font-weight: 500;
-            box-shadow: 1px 1px 1px 0 0.5px hsl(9, 61%, 20%);
         }
     }
 
@@ -60,7 +64,7 @@
 
         .location {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
 
             svg {

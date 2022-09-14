@@ -82,11 +82,12 @@ body {
     font-family: $ff-primary;
 }
 
-// Page Styling
-
+/* Page Styling */
 .section {
     scroll-margin-top: 60px;
+    margin-inline: auto;
     padding-block: 2em;
+    max-width: 40em;
 
     .details {
         margin: 0 1em 1.5rem;

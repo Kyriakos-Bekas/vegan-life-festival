@@ -14,7 +14,6 @@ export async function getStaticPaths() {
     }));
 
     return { paths, fallback: false };
-    // can also be true or 'blocking'
 }
 
 export async function getStaticProps(context) {
@@ -24,9 +23,7 @@ export async function getStaticProps(context) {
 }
 
 const PersonalPage = ({ slug }) => {
-    console.log('slug: ', slug);
     const { locale } = useLocaleContext();
-    // const { name, webAddress, number, bio, sponsor, products, links } =
     const exhibitor = text[locale].exhibitors.list.find(
         (exhibitor) => exhibitor.slug === slug
     );

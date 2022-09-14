@@ -18,6 +18,7 @@ const ExhibitorList = ({ exhibitors }) => {
             ? 'Εμφάνιση λίστας'
             : 'Απόκρυψη λίστας';
 
+    // ! In Greek I do not get any results
     const arrays = useAlphabetically(exhibitors, locale);
 
     return (

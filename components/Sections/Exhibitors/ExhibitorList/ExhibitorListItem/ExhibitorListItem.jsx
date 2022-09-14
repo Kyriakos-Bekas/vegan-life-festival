@@ -9,22 +9,39 @@ const ExhibitorListItem = ({ exhibitor }) => {
 
     return (
         <li className={style.item}>
-            <article>
-                {sponsor && <StarIcon />}
+            {slug ? (
+                <Link href={`${locale === 'en' ? '/en' : ''}/${slug}`}>
+                    <a>
+                        <article>
+                            {sponsor && <StarIcon />}
 
-                <div className={style.data}>
-                    <h1 className={`${style.name} text-dark`}>{name}</h1>
-                    <div className={style.divider}></div>
-                    <p className={`${style.number} text-gray`}>{number}</p>
-                </div>
-                {slug && (
-                    <Link href={`${locale === 'en' ? '/en' : '/'}${slug}`}>
-                        <a className={style.link}>
-                            <LinkIcon />
-                        </a>
-                    </Link>
-                )}
-            </article>
+                            <div className={style.data}>
+                                <h1 className={`${style.name} text-dark`}>
+                                    {name}
+                                </h1>
+                                <div className={style.divider}></div>
+                                <p className={`${style.number} text-gray`}>
+                                    {number}
+                                </p>
+                            </div>
+
+                            <div className={style.icon}>
+                                <LinkIcon />
+                            </div>
+                        </article>
+                    </a>
+                </Link>
+            ) : (
+                <article>
+                    {sponsor && <StarIcon />}
+
+                    <div className={style.data}>
+                        <h1 className={`${style.name} text-dark`}>{name}</h1>
+                        <div className={style.divider}></div>
+                        <p className={`${style.number} text-gray`}>{number}</p>
+                    </div>
+                </article>
+            )}
         </li>
     );
 };

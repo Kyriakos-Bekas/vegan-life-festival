@@ -6,7 +6,7 @@ import style from './Exhibitors.module.scss';
 
 const Exhibitors = () => {
     const { locale } = useLocaleContext();
-    const { title, description, exhibitors } = text[locale].exhibitors;
+    const { title, description, list } = text[locale].exhibitors;
 
     const placeholder =
         locale === 'en'
@@ -30,7 +30,7 @@ const Exhibitors = () => {
                 <SearchIcon />
             </div>
 
-            <ExhibitorList exhibitors={exhibitors} />
+            <ExhibitorList exhibitors={list} />
         </section>
     );
 };
