@@ -8,8 +8,11 @@
             "@/fonts/*": ["./fonts/*"],
             "@/hooks/*": ["./hooks/*"],
             "@/layouts/*": ["./layouts/*"],
+            "@/lib/*": ["./lib/*"],
+            "@/models/*": ["./models/*"],
             "@/public/*": ["./public/*"],
-            "@/styles/*": ["./styles/*"]
+            "@/styles/*": ["./styles/*"],
+            "@/util/*": ["./util/*"]
         }
     }
 }

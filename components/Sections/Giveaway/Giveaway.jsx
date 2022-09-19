@@ -5,16 +5,50 @@ import style from './Giveaway.module.scss';
 
 const Giveaway = () => {
     const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
     const { locale } = useLocaleContext();
     const { title, description, placeholder, button } = text[locale].giveaway;
 
-    // * Need to implement storing of emails in database
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if (!email) return;
+        setMessage('');
 
-        console.log(email);
+        if (!email) {
+            const msg =
+                locale === 'en'
+                    ? 'Please enter your email'
+                    : 'Παρακαλώ εισάγετε το email σας';
+            setMessage(msg);
+            return;
+        }
+
+        const response = await fetch('/api/giveaway', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ email, slug: 'vegan-life', locale }),
+        });
+        const data = await response.json();
+
+        if (!data.success || !response.ok) {
+            const msg =
+                locale === 'en'
+                    ? 'Something went wrong, please try again in a bit'
+                    : 'Συνέβη κάποιο σφάλμα, παρακαλώ δοκιμάστε ξανά σε λίγο';
+            setMessage(msg);
+            return;
+        }
+
+        setEmail('');
+        e.target.reset();
+        const msg = locale === 'en' ? 'Success!' : 'Επιτυχία!';
+        setMessage(msg);
+
+        setTimeout(() => {
+            setMessage('');
+        }, 5000);
     };
 
     return (
@@ -33,10 +67,15 @@ const Giveaway = () => {
                     className="input"
                     onChange={(e) => setEmail(e.target.value)}
                     required
+                    autoComplete="on"
                 />
                 <button className={`ff-giveaway ${style.submit}`}>
                     {button}
                 </button>
+
+                <p className={`fs-300 text-black ${style.message}`}>
+                    {message}
+                </p>
             </form>
 
             <svg

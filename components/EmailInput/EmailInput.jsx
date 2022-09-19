@@ -2,31 +2,52 @@ import { useLocaleContext } from '@/hooks/useLocaleContext';
 import { useState } from 'react';
 import style from './EmailInput.module.scss';
 
-const EmailInput = ({ destination, type = 'newsletter' }) => {
+const EmailInput = ({ destination, type = 'newsletter', slug }) => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const { locale } = useLocaleContext();
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
         setMessage('');
 
         if (!email) {
             const msg =
-                locale === 'gr'
-                    ? 'Παρακαλώ συμπληρώστε το email σας'
-                    : 'Please enter your email';
+                locale === 'en'
+                    ? 'Please enter your email'
+                    : 'Παρακαλώ εισάγετε το email σας';
             setMessage(msg);
             return;
         }
 
-        // TODO : Handle email submission and storing
-        console.log('email: ', email);
+        const url = type === 'newsletter' ? '/api/email' : '/api/giveaway';
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ email, slug, destination }),
+        });
+        const data = await response.json();
+
+        if (!data.success || !response.ok) {
+            const msg =
+                locale === 'en'
+                    ? 'Something went wrong, please try again in a bit'
+                    : 'Συνέβη κάποιο σφάλμα, παρακαλώ δοκιμάστε ξανά σε λίγο';
+            setMessage(msg);
+            return;
+        }
 
         setEmail('');
-        const msg = locale === 'gr' ? 'Ευχαριστούμε!' : 'Thank you!';
+        e.target.reset();
+        const msg = locale === 'en' ? 'Thank you!' : 'Ευχαριστούμε!';
         setMessage(msg);
+
+        setTimeout(() => {
+            setMessage('');
+        }, 5000);
     };
 
     return (

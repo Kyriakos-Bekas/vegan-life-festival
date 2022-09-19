@@ -116,7 +116,7 @@ const PersonalPage = ({ slug }) => {
                                 : 'Join our newsletter to receive our catalog and exclusive offers'}
                         </h2>
 
-                        <EmailInput destination={exhibitor.email} />
+                        <EmailInput destination={exhibitor.email} slug={slug} />
                     </section>
                 )}
             </article>

@@ -5,7 +5,7 @@ import { useRef } from 'react';
 import styles from './Navigation.module.scss';
 
 const Navigation = () => {
-    const { locale, dispatch } = useLocaleContext();
+    const { locale } = useLocaleContext();
 
     const { navLinks: navLinksEN } = text.en;
     const { navLinks } = text[locale];
@@ -25,7 +25,7 @@ const Navigation = () => {
 
     return (
         <nav className={styles.navigation} ref={navigation}>
-            <Link href="#">
+            <Link href={`/${locale === 'en' ? 'en' : ''}`}>
                 <a className={styles.logo}>
                     {/* <img src="/vercel.svg" alt="Qanibal Logo" /> */}
                     <svg
