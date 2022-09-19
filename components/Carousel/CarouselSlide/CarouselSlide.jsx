@@ -1,15 +1,12 @@
-import { useState } from 'react';
 import style from './CarouselSlide.module.scss';
 
 const CarouselSlide = ({ slide, type }) => {
-    const [finished, setFinished] = useState(false);
-
     return (
         <article
-            className={`${style.slide} ${finished ? style.finished : ''} ${
-                type === 'workshop' ? style.workshop : ''
-            }`}
-            data-finished={finished ? 'finished' : ''}
+            className={`${style.slide} ${
+                slide.finished ? style.finished : ''
+            } ${type === 'workshop' ? style.workshop : ''}`}
+            data-finished={slide.finished ? 'finished' : ''}
         >
             <img
                 src={slide.img.src}

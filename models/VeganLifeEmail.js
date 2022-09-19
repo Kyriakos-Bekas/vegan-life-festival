@@ -1,22 +1,17 @@
 const mongoose = require('mongoose');
 
-const EmailSchema = new mongoose.Schema(
+const VeganLifeEmailSchema = new mongoose.Schema(
     {
         email: {
             type: String,
             required: true,
             unique: true,
         },
-        slug: {
-            type: String,
-            required: true,
-        },
-        destination: String,
     },
     { timestamps: true }
 );
 
-EmailSchema.statics.register = async function (email, slug, locale = 'gr') {
+VeganLifeEmailSchema.statics.register = async function (email, locale = 'gr') {
     const exists = await this.findOne({ email });
 
     if (exists) {
@@ -27,11 +22,13 @@ EmailSchema.statics.register = async function (email, slug, locale = 'gr') {
         throw new Error(message);
     }
 
-    const savedEmail = await this.create({ email, slug });
+    const savedEmail = await this.create({ email });
 
     return savedEmail;
 };
 
-const Email = mongoose.models.Email || mongoose.model('Email', EmailSchema);
+const VeganLifeEmail =
+    mongoose.models.VeganLifeEmail ||
+    mongoose.model('VeganLifeEmail', VeganLifeEmailSchema);
 
-module.exports = Email;
+module.exports = VeganLifeEmail;

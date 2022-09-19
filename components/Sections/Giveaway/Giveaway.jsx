@@ -7,7 +7,9 @@ const Giveaway = () => {
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const { locale } = useLocaleContext();
-    const { title, description, placeholder, button } = text[locale].giveaway;
+    const { title, description, button } = text[locale].giveaway;
+    const placeholder =
+        locale === 'en' ? 'Enter your email' : 'Εισάγετε το email σας';
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -17,13 +19,13 @@ const Giveaway = () => {
         if (!email) {
             const msg =
                 locale === 'en'
-                    ? 'Please enter your email'
-                    : 'Παρακαλώ εισάγετε το email σας';
+                    ? 'Email is required'
+                    : 'Το email είναι υποχρεωτικό';
             setMessage(msg);
             return;
         }
 
-        const response = await fetch('/api/giveaway', {
+        const response = await fetch('/api/email', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

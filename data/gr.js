@@ -1,4 +1,6 @@
 import { exhibitors } from './exhibitors';
+import { speeches } from './speeches';
+import { workshops } from './workshops';
 
 export const gr = {
     navLinks: [
@@ -96,78 +98,13 @@ export const gr = {
         title: 'Ομιλιες',
         description:
             'Όλες οι πληροφορίες για τις σημερινές ομιλίες. Η λίστα ενημερώνεται τακτικά ώστε να μην χάσεις τίποτα!',
-        speeches: [
-            {
-                title: 'Test Slide 1',
-                sub: 'carousel',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-1.png',
-                    alt: '',
-                },
-                duration: '13:00-14:30',
-            },
-            {
-                title: 'Test Slide 2',
-                sub: 'carousel',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-2.png',
-                    alt: '',
-                },
-                duration: '14:30-16:00',
-            },
-            {
-                title: 'Test Slide 3',
-                sub: 'carousel',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-1.png',
-                    alt: '',
-                },
-                duration: '16:00-17:30',
-            },
-        ],
+        speeches: speeches.gr,
     },
     workshops: {
         title: 'Εργαστηρια',
         description:
             'Βρες τα εργαστήρια που σε ενδιαφέρουν με μία μόνο κίνηση!',
-        workshops: [
-            {
-                title: 'Test Slide 1',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-1.png',
-                    alt: '',
-                },
-                duration: '13:00-14:30',
-            },
-            {
-                title: 'Test Slide 2',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-2.png',
-                    alt: '',
-                },
-                duration: '14:30-16:00',
-            },
-            {
-                title: 'Test Slide 3',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-1.png',
-                    alt: '',
-                },
-                duration: '16:00-17:30',
-            },
-        ],
+        workshops: workshops.gr,
     },
     map: {
         title: 'Χαρτης Χωρου',

@@ -2,7 +2,7 @@
 
 .hero {
     padding: 2.5em 1em;
-    height: min(80vh, 600px);
+    height: min(600px, 80vh);
     background-color: $clr-accent;
     display: flex;
     flex-direction: column;

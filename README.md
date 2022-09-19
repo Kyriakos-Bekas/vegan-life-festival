@@ -4,4 +4,4 @@ This project is for the Vegan Life Festival
 
 ---
 
-Developbed by Kyriakos Bekas
+Developed by Kyriakos Bekas

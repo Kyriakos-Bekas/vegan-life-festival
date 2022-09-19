@@ -1,4 +1,6 @@
 import { exhibitors } from './exhibitors';
+import { speeches } from './speeches';
+import { workshops } from './workshops';
 
 export const en = {
     navLinks: [
@@ -36,7 +38,6 @@ export const en = {
             'Do you want to be one of the 5 lucky winners to win a 100€ voucher?',
             'Register now by simply entering your email below!',
         ],
-        placeholder: 'Enter your email here',
         button: 'Submit',
     },
     sponsors: {
@@ -95,77 +96,12 @@ export const en = {
         title: 'Speeches',
         description:
             "All the information about the speeches is shown below. The list is updated regularly, so that you won't miss anything!",
-        speeches: [
-            {
-                title: 'Test Slide 1',
-                sub: 'carousel',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-1.png',
-                    alt: '',
-                },
-                duration: '13:00-14:30',
-            },
-            {
-                title: 'Test Slide 2',
-                sub: 'carousel',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-2.png',
-                    alt: '',
-                },
-                duration: '14:30-16:00',
-            },
-            {
-                title: 'Test Slide 3',
-                sub: 'carousel',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-1.png',
-                    alt: '',
-                },
-                duration: '16:00-17:30',
-            },
-        ],
+        speeches: speeches.en,
     },
     workshops: {
         title: 'Workshops',
         description: 'Find interesting workshops in just one place!',
-        workshops: [
-            {
-                title: 'Test Slide 1',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-1.png',
-                    alt: '',
-                },
-                duration: '13:00-14:30',
-            },
-            {
-                title: 'Test Slide 2',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-2.png',
-                    alt: '',
-                },
-                duration: '14:30-16:00',
-            },
-            {
-                title: 'Test Slide 3',
-                description:
-                    'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, consequatur! Quam repellendus eius adipisci velit amet. Rem neque, omnis aliquid voluptate totam adipisci maxime!',
-                img: {
-                    src: '/speeches/speech-1.png',
-                    alt: '',
-                },
-                duration: '16:00-17:30',
-            },
-        ],
+        workshops: workshops.en,
     },
     map: {
         title: 'Location Map',

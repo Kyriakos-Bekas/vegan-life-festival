@@ -1,15 +1,50 @@
-/* NextJS handler to save email to db */
+import Email from '@/models/Email';
+import VeganLifeEmail from '@/models/VeganLifeEmail';
+import connectDB from '@/util/db';
+import middleware from '@/util/middleware';
+import Cors from 'cors';
 
-// import { connectDB } from '@/util/db'
+// Initialize the cors middleware
+const cors = middleware(
+    Cors({
+        origin:
+            process.env.NODE_ENV === 'development'
+                ? 'http://127.0.0.1:3000'
+                : process.env.ORIGIN,
+        methods: ['POST'],
+    })
+);
 
 export default async (req, res) => {
+    const { locale, ...data } = req.body;
+
     if (req.method === 'POST') {
-        const data = req.body;
+        // Run cors
+        await cors(req, res);
 
-        console.log('>>> in handler data', data);
+        // Connect to database
+        await connectDB();
 
-        res.status(200).json({ success: true, data: data });
+        try {
+            const email =
+                data.slug === 'vegan-life'
+                    ? await VeganLifeEmail.register(data.email, locale)
+                    : await Email.register(data.email, data.slug, locale);
+
+            const message = locale === 'en' ? 'Success!' : 'Επιτυχία!';
+            res.status(200).json({ success: true, message, data: email });
+        } catch (error) {
+            const message =
+                locale === 'en'
+                    ? 'Something unexpected happened, please try again later'
+                    : 'Συνέβη καποιο σφάλμα, παρακαλούμε προσπαθήστε ξανά αργότερα';
+            return res.status(400).json({ success: false, message });
+        }
     } else {
-        return res.status(400).json({ success: false });
+        const message =
+            locale === 'en'
+                ? 'Something unexpected happened, please try again later'
+                : 'Συνέβη καποιο σφάλμα, παρακαλούμε προσπαθήστε ξανά αργότερα';
+        return res.status(400).json({ success: false, message });
     }
 };

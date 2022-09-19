@@ -21,8 +21,8 @@ const EmailInput = ({ destination, type = 'newsletter', slug }) => {
             return;
         }
 
-        const url = type === 'newsletter' ? '/api/email' : '/api/giveaway';
-        const response = await fetch(url, {
+        // const url = type === 'newsletter' ? '/api/email' : '/api/giveaway';
+        const response = await fetch('/api/email', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
