@@ -1,23 +1,23 @@
 import Email from '@/models/Email';
 import VeganLifeEmail from '@/models/VeganLifeEmail';
 import connectDB from '@/util/db';
-import middleware from '@/util/middleware';
-import Cors from 'cors';
+// import middleware from '@/util/middleware';
+// import Cors from 'cors';
 
 // Initialize the cors middleware
-const cors = middleware(
-    Cors({
-        origin: process.env.ORIGIN,
-        methods: ['POST'],
-    })
-);
+// const cors = middleware(
+//     Cors({
+//         origin: process.env.ORIGIN,
+//         methods: ['POST'],
+//     })
+// );
 
 export default async (req, res) => {
     const { locale, ...data } = req.body;
 
     if (req.method === 'POST') {
         // Run cors
-        await cors(req, res);
+        // await cors(req, res);
 
         // Connect to database
         await connectDB();
