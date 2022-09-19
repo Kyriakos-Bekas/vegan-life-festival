@@ -62,6 +62,7 @@ const EmailInput = ({ destination, type = 'newsletter', slug }) => {
                 }
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
+                autoComplete="email"
             />
 
             <button className={style.submit}>

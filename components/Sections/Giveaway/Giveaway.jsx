@@ -69,7 +69,7 @@ const Giveaway = () => {
                     className="input"
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    autoComplete="on"
+                    autoComplete="email"
                 />
                 <button className={`ff-giveaway ${style.submit}`}>
                     {button}
