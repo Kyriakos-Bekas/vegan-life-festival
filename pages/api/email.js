@@ -7,10 +7,7 @@ import Cors from 'cors';
 // Initialize the cors middleware
 const cors = middleware(
     Cors({
-        origin:
-            process.env.NODE_ENV === 'development'
-                ? 'http://127.0.0.1:3000'
-                : process.env.ORIGIN,
+        origin: process.env.ORIGIN,
         methods: ['POST'],
     })
 );
