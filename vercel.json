@@ -5,7 +5,7 @@
             "headers": [
                 {
                     "key": "Access-Control-Allow-Origin",
-                    "value": "https://76.76.21.123,https://76.76.21.61,https://demo-vegan-life.vercel.app"
+                    "value": "https://demo-vegan-life.vercel.app"
                 },
                 {
                     "key": "Access-Control-Allow-Methods",
