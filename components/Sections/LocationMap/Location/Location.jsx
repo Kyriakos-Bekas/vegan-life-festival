@@ -1,7 +1,8 @@
 import { LocationIcon } from '@/components/Icons/Icons';
+import Link from 'next/link';
 import style from './Location.module.scss';
 
-const Location = ({ name, features, img }) => {
+const Location = ({ name, features, img, link = '' }) => {
     return (
         <article className={style.location}>
             <div className={style.details}>
@@ -19,8 +20,16 @@ const Location = ({ name, features, img }) => {
                 </ul>
             </div>
 
-            <div className="location__img">
-                <img src={img.src} alt={img.alt} />
+            <div>
+                {link ? (
+                    <Link href={link}>
+                        <a target="_blank">
+                            <img src={img.src} alt={img.alt} />
+                        </a>
+                    </Link>
+                ) : (
+                    <img src={img.src} alt={img.alt} />
+                )}
             </div>
         </article>
     );

@@ -1,5 +1,4 @@
 import { DownIcon } from '@/components/Icons/Icons';
-import { useAlphabetically } from '@/hooks/useAlphabetically';
 import { useLocaleContext } from '@/hooks/useLocaleContext';
 import { useState } from 'react';
 import style from './ExhibitorList.module.scss';
@@ -18,9 +17,6 @@ const ExhibitorList = ({ exhibitors }) => {
             ? 'Εμφάνιση λίστας'
             : 'Απόκρυψη λίστας';
 
-    // ! In Greek I do not get any results
-    const arrays = useAlphabetically(exhibitors, locale);
-
     return (
         <div className={`${style.list} ${collapsed ? style.collapsed : ''}`}>
             <div className={style.head}>
@@ -31,24 +27,41 @@ const ExhibitorList = ({ exhibitors }) => {
             </div>
 
             <div className={style['list-content']}>
-                <ul className={style['letter-list']}>
-                    {arrays.map((array, index) => (
-                        <li key={index}>
-                            <h2 className={`${style.index} fs-300 text-gray`}>
-                                {array.letter}
-                            </h2>
+                {exhibitors.map((localeArray, index) => (
+                    <div key={index}>
+                        <div
+                            className={`fs-300 text-gray ${style['locale-code']}`}
+                        >
+                            <div className={style.line}></div>
+                            <p>{localeArray[0]}</p>
+                        </div>
 
-                            <ul>
-                                {array.exhibitors.map((exhibitor, index) => (
-                                    <ExhibitorListItem
-                                        key={index}
-                                        exhibitor={exhibitor}
-                                    />
-                                ))}
+                        {localeArray[1].map((array, index) => (
+                            <ul className={style['letter-list']} key={index}>
+                                <li>
+                                    <h2
+                                        className={`${style.index} fs-300 text-gray`}
+                                    >
+                                        {`${
+                                            array.letter
+                                        } • ${array.letter.toLowerCase()}`}
+                                    </h2>
+
+                                    <ul>
+                                        {array.exhibitors.map(
+                                            (exhibitor, index) => (
+                                                <ExhibitorListItem
+                                                    key={index}
+                                                    exhibitor={exhibitor}
+                                                />
+                                            )
+                                        )}
+                                    </ul>
+                                </li>
                             </ul>
-                        </li>
-                    ))}
-                </ul>
+                        ))}
+                    </div>
+                ))}
             </div>
         </div>
     );

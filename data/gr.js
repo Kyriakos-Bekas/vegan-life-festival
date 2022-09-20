@@ -118,6 +118,7 @@ export const gr = {
                     src: '/locations/1.png',
                     alt: 'Exhibition Avenue 1 Map',
                 },
+                link: '#',
             },
             {
                 name: 'Εκθεσιακός Χώρος 2',

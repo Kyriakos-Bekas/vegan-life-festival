@@ -25,7 +25,7 @@ const Navigation = () => {
 
     return (
         <nav className={styles.navigation} ref={navigation}>
-            <Link href={`/${locale === 'en' ? 'en' : ''}`}>
+            <Link href={`${locale === 'en' ? '/en' : ''}`}>
                 <a className={styles.logo}>
                     {/* <img src="/vercel.svg" alt="Qanibal Logo" /> */}
                     <svg

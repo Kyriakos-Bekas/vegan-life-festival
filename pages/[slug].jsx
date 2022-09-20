@@ -2,16 +2,17 @@ import EmailInput from '@/components/EmailInput/EmailInput';
 import Product from '@/components/Product/Product';
 import SocialLink from '@/components/SocialLink/SocialLink';
 import { text } from '@/data/data';
+import { demoExhibitors } from '@/data/exhibitor-display-list';
 import { useLocaleContext } from '@/hooks/useLocaleContext';
 import style from '@/styles/pages/PersonalPage.module.scss';
 import Link from 'next/link';
 
 export async function getStaticPaths() {
-    const { list } = text.gr.exhibitors;
-
-    const paths = list.map((exhibitor) => ({
-        params: { slug: exhibitor.slug },
-    }));
+    const paths = demoExhibitors
+        .filter((exhibitor) => exhibitor.slug)
+        .map((exhibitor) => ({
+            params: { slug: exhibitor.slug },
+        }));
 
     return { paths, fallback: false };
 }

@@ -115,6 +115,7 @@ export const en = {
                     src: '/locations/1.png',
                     alt: 'Exhibition Avenue 1 Map',
                 },
+                link: '#',
             },
             {
                 name: 'Exhibition Avenue 2',

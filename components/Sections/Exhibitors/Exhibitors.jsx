@@ -1,34 +1,21 @@
-import { SearchIcon } from '@/components/Icons/Icons';
 import { text } from '@/data/data';
+import { displayList as list } from '@/data/exhibitor-display-list';
 import { useLocaleContext } from '@/hooks/useLocaleContext';
 import ExhibitorList from './ExhibitorList/ExhibitorList';
-import style from './Exhibitors.module.scss';
+import Search from './Search/Search';
 
 const Exhibitors = () => {
     const { locale } = useLocaleContext();
-    const { title, description, list } = text[locale].exhibitors;
-
-    const placeholder =
-        locale === 'en'
-            ? 'Search for a specific exhibitor'
-            : 'Αναζήτησε έναν συγκεκριμένο εκθέτη';
+    const { title, description } = text[locale].exhibitors;
 
     return (
-        <section className={`${style.exhibitors} section`} id="exhibitors">
+        <section className="section" id="exhibitors">
             <div className="details">
                 <h1>{title}</h1>
                 <p>{description}</p>
             </div>
 
-            <div className={style.search}>
-                <input
-                    type="search"
-                    placeholder={placeholder}
-                    className={`${style.input} bg-light-card`}
-                />
-
-                <SearchIcon />
-            </div>
+            <Search />
 
             <ExhibitorList exhibitors={list} />
         </section>
