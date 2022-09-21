@@ -12,6 +12,8 @@
         position: relative;
         margin-block: 0.25rem;
         padding-inline: 0.5rem;
+        text-align: center;
+        flex-shrink: 0;
 
         &:not(:last-of-type) {
             &::after {
