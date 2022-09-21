@@ -13,7 +13,6 @@ export const en = {
         'map',
         'exhibitors',
         'transport',
-        'taxi',
     ],
     hero: {
         athens: 'Athens',

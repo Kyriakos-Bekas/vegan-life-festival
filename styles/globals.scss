@@ -47,6 +47,11 @@ picture {
     display: block;
 }
 
+img[alt] {
+    color: $clr-gray;
+    font-size: $fs-300;
+}
+
 /* Inherit fonts for inputs and buttons */
 input,
 button,

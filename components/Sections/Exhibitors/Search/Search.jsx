@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react';
 import ExhibitorListItem from '../ExhibitorList/ExhibitorListItem/ExhibitorListItem';
 import style from './Search.module.scss';
 
-// ! Only searches correctly for one of the options in each locale
 const Search = () => {
     const { locale } = useLocaleContext();
     const [searchString, setSearchString] = useState('');

@@ -266,6 +266,11 @@ export const exhibitors = {
                 },
             ],
         },
+        {
+            name: 'Quality',
+            number: 79,
+            sponsor: false,
+        },
     ],
     gr: [
         {
@@ -533,6 +538,11 @@ export const exhibitors = {
                     type: 'twitter',
                 },
             ],
+        },
+        {
+            name: 'Ποιότις',
+            number: 79,
+            sponsor: false,
         },
     ],
 };

@@ -8,12 +8,24 @@ const ACCENTED_LETTERS = {
     Ώ: 'Ω',
 };
 
+const simplifyList = (list) => {
+    const result = [];
+
+    list.forEach((item) =>
+        item.exhibitors.forEach(
+            (exhibitor) => (result = [...result, exhibitor])
+        )
+    );
+
+    return result;
+};
+
 export const searchExhibitors = (searchString, displayList) => {
     const list = [];
 
     const exhibitors = [
-        ...displayList[0][1][0].exhibitors,
-        ...displayList[1][1][0].exhibitors,
+        ...simplifyList(displayList[0][1]),
+        ...simplifyList(displayList[1][1]),
     ];
 
     for (let i = 0; i < exhibitors.length; i++) {

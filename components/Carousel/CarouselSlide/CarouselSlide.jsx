@@ -1,12 +1,18 @@
 import style from './CarouselSlide.module.scss';
 
-const CarouselSlide = ({ slide, type }) => {
+const CarouselSlide = ({ slide, type, locale }) => {
     return (
         <article
             className={`${style.slide} ${
                 slide.finished ? style.finished : ''
             } ${type === 'workshop' ? style.workshop : ''}`}
-            data-finished={slide.finished ? 'finished' : ''}
+            data-finished={
+                slide.finished
+                    ? locale === 'en'
+                        ? 'finished'
+                        : 'ολοκληρώθηκε'
+                    : ''
+            }
         >
             <img
                 src={slide.img.src}

@@ -6,14 +6,14 @@ import {
     LocationMap,
     Speeches,
     Sponsors,
-    Taxi,
     Transport,
     Workshops,
 } from '@/components/Sections/Sections';
+import BasicLayout from '@/layouts/BasicLayout/BasicLayout';
 
 export default function Home() {
     return (
-        <>
+        <BasicLayout>
             <Hero />
             <Activities />
             <Sponsors />
@@ -23,7 +23,6 @@ export default function Home() {
             <LocationMap />
             <Exhibitors />
             <Transport />
-            <Taxi />
-        </>
+        </BasicLayout>
     );
 }

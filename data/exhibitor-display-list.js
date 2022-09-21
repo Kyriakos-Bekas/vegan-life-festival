@@ -1,5 +1,4 @@
 import { createExhibitorList } from '@/util/createExhibitorList';
-// import { exhibitors } from "./exhibitors";
 
 // Demo Data
 export const demoExhibitors = [
@@ -268,6 +267,11 @@ export const demoExhibitors = [
                 type: 'twitter',
             },
         ],
+    },
+    {
+        name: 'Ποιότις',
+        number: 79,
+        sponsor: false,
     },
 ];
 

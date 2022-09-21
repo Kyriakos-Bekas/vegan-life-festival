@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
             <h2 className="text-white uppercase fs-700">go vegan.</h2>
             <div className={`${style.about} text-light`}>
-                <h4 className="uppercase fs-400">{date} | 11:00 - 13:00</h4>
+                <h4 className="uppercase fs-400">{date} | 11:00 - 23:00</h4>
                 <div className={style.location}>
                     <LocationIcon />
                     <p className="uppercase fs-200">{location}</p>
