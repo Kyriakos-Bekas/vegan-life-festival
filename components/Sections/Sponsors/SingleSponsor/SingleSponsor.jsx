@@ -1,10 +1,17 @@
+import { useLocaleContext } from '@/hooks/useLocaleContext';
 import Image from 'next/image';
 import Link from 'next/link';
 import style from './SingleSponsor.module.scss';
 
 const SingleSponsor = ({ name, prime = false, img, link }) => {
+    const { locale } = useLocaleContext();
+
     return (
-        <Link href={link}>
+        <Link
+            href={`${
+                locale === 'en' ? '/en' : ''
+            }/veganlifefestival2022/${link}`}
+        >
             <a className={`${style.sponsor} ${prime ? style.prime : ''}`}>
                 <article>
                     <Image

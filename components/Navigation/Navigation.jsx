@@ -25,9 +25,10 @@ const Navigation = () => {
 
     return (
         <nav className={style.navigation} ref={navigation}>
-            <Link href={`/${locale === 'en' ? 'en' : ''}`}>
+            <Link
+                href={`${locale === 'en' ? '/en' : ''}/veganlifefestival2022`}
+            >
                 <a className={style.logo}>
-                    {/* <img src="/vercel.svg" alt="Qanibal Logo" /> */}
                     <svg
                         width="154"
                         height="23"
@@ -188,7 +189,13 @@ const Navigation = () => {
             </div>
 
             <div className={style.locale}>
-                <Link href={locale === 'gr' ? '/en' : '/'}>
+                <Link
+                    href={
+                        locale === 'gr'
+                            ? '/en/veganlifefestival2022'
+                            : '/veganlifefestival2022'
+                    }
+                >
                     <a>{locale === 'gr' ? 'EN' : 'GR'}</a>
                 </Link>
             </div>

@@ -10,7 +10,11 @@ const ExhibitorListItem = ({ exhibitor }) => {
     return (
         <li className={style.item}>
             {slug ? (
-                <Link href={`${locale === 'en' ? '/en' : ''}/${slug}`}>
+                <Link
+                    href={`${
+                        locale === 'en' ? '/en' : ''
+                    }/veganlifefestival2022/${slug}`}
+                >
                     <a>
                         <article>
                             {sponsor && <StarIcon />}

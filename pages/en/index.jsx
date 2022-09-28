@@ -1,28 +1,30 @@
-import {
-    Activities,
-    Exhibitors,
-    Giveaway,
-    Hero,
-    LocationMap,
-    Speeches,
-    Sponsors,
-    Transport,
-    Workshops,
-} from '@/components/Sections/Sections';
-import BasicLayout from '@/layouts/BasicLayout/BasicLayout';
+import Head from 'next/head';
 
-export default function Home() {
+const Home = () => {
     return (
-        <BasicLayout>
-            <Hero />
-            <Activities />
-            <Sponsors />
-            <Giveaway />
-            <Speeches />
-            <Workshops />
-            <LocationMap />
-            <Exhibitors />
-            <Transport />
-        </BasicLayout>
+        <>
+            <Head>
+                <title>Qanibal</title>
+
+                <meta name="description" content="Qanibal" />
+            </Head>
+
+            <div className="container">
+                {/* <header>
+                    <img src="/vercel.svg" alt="Qanibal Logo" />
+                </header> */}
+
+                <main>
+                    <h1>Qanibal EN</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iure tempora tenetur, recusandae officia porro rem saepe
+                        enim ea architecto, harum vero maxime ab aliquid.
+                    </p>
+                </main>
+            </div>
+        </>
     );
-}
+};
+
+export default Home;
