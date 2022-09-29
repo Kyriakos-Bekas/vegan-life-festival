@@ -139,7 +139,7 @@ const Navigation = () => {
                     <h3 className="fs-400">Follow Vegan Life</h3>
 
                     <div className={style['social-links']}>
-                        <Link href="https://www.instagram.com/#">
+                        <Link href="https://www.instagram.com/veganlifengo/">
                             <a
                                 target="_blank"
                                 rel="noopener"
@@ -154,7 +154,7 @@ const Navigation = () => {
                                 </svg>
                             </a>
                         </Link>
-                        <Link href="https://www.facebook.com/#/">
+                        <Link href="https://www.facebook.com/veganlifengo">
                             <a
                                 target="_blank"
                                 rel="noopener"
@@ -169,7 +169,7 @@ const Navigation = () => {
                                 </svg>
                             </a>
                         </Link>
-                        <Link href="https://twitter.com/#">
+                        <Link href="https://twitter.com/veganlifefesti1">
                             <a
                                 target="_blank"
                                 rel="noopener"

@@ -21,7 +21,7 @@ const SingleSponsor = ({ name, prime = false, img, link }) => {
                         height={prime ? 98 : 80}
                     />
 
-                    <h1 className={`fs-${prime ? '400' : '200'} text-dark`}>
+                    <h1 className={`fs-${prime ? '500' : '300'} text-accent`}>
                         {name}
                     </h1>
                 </article>

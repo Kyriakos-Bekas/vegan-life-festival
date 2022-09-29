@@ -65,17 +65,24 @@ export const en = {
                 name: 'Exhibition Avenue 1',
                 features: ['Exhibitors 1-80', 'Cooking Workshop'],
                 img: {
-                    src: '/locations/1.png',
+                    src: '/locations/area-1.jpg',
                     alt: 'Exhibition Avenue 1 Map',
                 },
-                link: '#',
             },
             {
                 name: 'Exhibition Avenue 2',
                 features: ['Exhibitors 81-120', 'Playground'],
                 img: {
-                    src: '/locations/2.png',
+                    src: '/locations/area-2.jpg',
                     alt: 'Exhibition Avenue 2 Map',
+                },
+            },
+            {
+                name: 'Exhibition Avenue 3',
+                features: ['Exhibitors 121-210', 'Live DJ Set'],
+                img: {
+                    src: '/locations/area-3.jpg',
+                    alt: 'Exhibition Avenue 3 Map',
                 },
             },
         ],

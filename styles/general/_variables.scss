@@ -1,12 +1,40 @@
+// Primary Font Family
+@font-face {
+    font-family: CeraPro;
+    src: url('../../fonts/Cera Pro/Cera\ Pro\ Light.otf') format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: CeraPro;
+    src: url('../../fonts/Cera Pro/Cera\ Pro\ Medium.otf') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: CeraPro;
+    src: url('../../fonts/Cera Pro/Cera\ Pro\ Bold.otf') format('opentype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: CeraPro;
+    src: url('../../fonts/Cera Pro/Cera\ Pro\ Black.otf') format('opentype');
+    font-weight: 800;
+}
+
+// Giveaway / Newsleter Font Family
 @font-face {
     font-family: PFBBagueSlabPro;
-    src: url('../../fonts/PF Bague Slab Pro Bold.otf') format('opentype');
+    src: url('../../fonts/PF Bague/PF Bague Slab Pro Bold.otf')
+        format('opentype');
     font-weight: 700;
 }
 
 @font-face {
     font-family: PFBBagueSlabPro;
-    src: url('../../fonts/PF Bague Slab Pro Medium.otf') format('opentype');
+    src: url('../../fonts/PF Bague/PF Bague Slab Pro Medium.otf')
+        format('opentype');
     font-weight: 500;
 }
 
@@ -32,8 +60,8 @@ $fs-800: 2.5rem;
 $fs-900: 3.25rem;
 
 // Font Families
-$ff-primary: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
-    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$ff-primary: CeraPro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $ff-giveaway: PFBBagueSlabPro, $ff-primary;
 
 $border-radius: 4px;

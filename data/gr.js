@@ -67,7 +67,7 @@ export const gr = {
                 name: 'Εκθεσιακός Χώρος 1',
                 features: ['Εκθέτες 1-80', 'Εργαστήριο Μαγειρικής'],
                 img: {
-                    src: '/locations/1.png',
+                    src: '/locations/area-1.jpg',
                     alt: 'Exhibition Avenue 1 Map',
                 },
                 link: '#',
@@ -76,8 +76,16 @@ export const gr = {
                 name: 'Εκθεσιακός Χώρος 2',
                 features: ['Εκθέτες 81-120', 'Χώρος Playground'],
                 img: {
-                    src: '/locations/2.png',
+                    src: '/locations/area-2.jpg',
                     alt: 'Exhibition Avenue 2 Map',
+                },
+            },
+            {
+                name: 'Εκθεσιακός Χώρος 3',
+                features: ['Εκθέτες 121-210', 'Live DJ Set'],
+                img: {
+                    src: '/locations/area-3.jpg',
+                    alt: 'Exhibition Avenue 3 Map',
                 },
             },
         ],
