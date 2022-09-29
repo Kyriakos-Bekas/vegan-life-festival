@@ -1,3 +1,4 @@
+import { childrenActivities } from './children-activities';
 import { exhibitors } from './exhibitors';
 import { speeches } from './speeches';
 import { sponsors } from './sponsors';
@@ -57,6 +58,12 @@ export const gr = {
         description:
             'Βρες τα εργαστήρια που σε ενδιαφέρουν με μία μόνο κίνηση!',
         workshops: workshops.gr,
+    },
+    childrenActivities: {
+        title: 'Παιδικες Δραστηριοτητες',
+        description:
+            'Έχεις αμφιβολίες για το αν θα φέρεις τα παιδιά στο event μας; Έχουμε ήδη λύσει το πρόβλημα! Έχουμε προετοιμάσει πολλές δραστηριότητες που θα τους τρελάνουν!',
+        activities: childrenActivities.gr,
     },
     map: {
         title: 'Χαρτης Χωρου',

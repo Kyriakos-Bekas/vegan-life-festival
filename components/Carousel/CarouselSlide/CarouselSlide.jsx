@@ -14,11 +14,13 @@ const CarouselSlide = ({ slide, type, locale }) => {
                     : ''
             }
         >
-            <img
-                src={slide.img.src}
-                alt={slide.img.alt}
-                className={style.thumbnail}
-            />
+            {slide.img?.src !== '/workshops/' && (
+                <img
+                    src={slide.img.src}
+                    alt={slide.img.alt}
+                    className={style.thumbnail}
+                />
+            )}
 
             <div className={style.details}>
                 {slide.sub && (
@@ -27,7 +29,7 @@ const CarouselSlide = ({ slide, type, locale }) => {
                     </h2>
                 )}
 
-                <h1 className={`${style.title} fs-500`}>{slide.title}</h1>
+                <h1 className="fs-400">{slide.title}</h1>
 
                 <p className={`${style.description} fs-300`}>
                     {slide.description}

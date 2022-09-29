@@ -20,7 +20,7 @@ export const sponsors = [
     {
         name: 'Βιολογικό Χωριό',
         prime: true,
-        img: '/sponsors/1.png',
+        img: '/sponsors/biologiko-xorio.png',
         link: 'biologiko-xorio',
     },
     {

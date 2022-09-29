@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
                     content="Ιστοσελίδα για πλοήγηση στο Vegan Life Festival 2022. Powered by Qanibal."
                 />
 
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon/favicon.ico" />
                 <link
                     rel="apple-touch-icon"
                     sizes="180x180"

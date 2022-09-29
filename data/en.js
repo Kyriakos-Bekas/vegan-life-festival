@@ -1,3 +1,4 @@
+import { childrenActivities } from './children-activities';
 import { exhibitors } from './exhibitors';
 import { speeches } from './speeches';
 import { sponsors } from './sponsors';
@@ -55,6 +56,12 @@ export const en = {
         title: 'Workshops',
         description: 'Find interesting workshops in just one place!',
         workshops: workshops.en,
+    },
+    childrenActivities: {
+        title: 'Children Activities',
+        description:
+            'Are you sceptical about bringing your children to our event? We already took care of that! We have prepared a lot of activities that will thrill them!',
+        activities: childrenActivities.en,
     },
     map: {
         title: 'Location Map',

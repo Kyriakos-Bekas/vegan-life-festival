@@ -7,14 +7,20 @@
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 288px;
-    height: 100%;
+    min-height: 100%;
 
     .thumbnail {
         width: 100%;
+        object-fit: cover;
+        max-height: 298px;
     }
 
     .details {
         padding-top: 0.75rem;
+
+        h1 {
+            line-height: 1.35;
+        }
 
         .sub {
             margin-bottom: 0.5rem;
@@ -39,11 +45,10 @@
         width: 340px;
         display: flex;
         flex-direction: row-reverse;
-        gap: $gap;
+        gap: 0.5rem;
 
         .thumbnail {
-            width: 50%;
-            object-fit: cover;
+            width: 154px;
         }
     }
 
