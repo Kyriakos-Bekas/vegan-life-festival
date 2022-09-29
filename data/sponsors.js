@@ -44,7 +44,7 @@ export const sponsors = [
     {
         name: 'Βιοαγρός',
         img: '/sponsors/bio-agros.png',
-        link: 'bio-agros',
+        link: 'bioagros',
     },
     {
         name: 'Amino Animo',

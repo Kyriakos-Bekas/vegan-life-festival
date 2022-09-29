@@ -5,7 +5,7 @@ export const exhibitors = {
             number: 13,
             sponsor: true,
             slug: 'violife',
-            webAddress: 'artemis.stores',
+            webAddress: 'violifefoods.com',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -31,26 +31,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/ViolifeGreece',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/violife_foods/',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://violifefoods.com/el/epikoinwnia/',
         },
         {
             name: 'Beyond Meat',
-            number: 13,
+            number: 31,
             sponsor: true,
             slug: 'beyond-meat',
-            webAddress: 'artemis.stores',
+            webAddress: 'foodelco.gr/beyond-meat-profile',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -76,26 +72,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/beyondmeatdistributiongreece',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/beyondmeatdistributiongr/',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://foodelco.gr/contact/',
         },
         {
             name: 'Βιολογικό Χωριό',
-            number: 13,
+            number: 102,
             sponsor: true,
             slug: 'biologiko-xorio',
-            webAddress: 'artemis.stores',
+            webAddress: 'biologikoxorio.gr',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -121,26 +113,21 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/beyondmeatdistributiongreece',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/biologikoxorio/?hl=el',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.biologikoxorio.gr/contact',
         },
         {
             name: 'Athens Vegan Burgers',
-            number: 13,
+            number: 76,
             sponsor: true,
             slug: 'athens-vegan-burgers',
-            webAddress: 'artemis.stores',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -166,26 +153,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/athensveganburgers/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/athensveganburgers/?hl=el',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.facebook.com/athensveganburgers/',
         },
         {
             name: 'Terranova',
-            number: 13,
+            number: 43,
             sponsor: true,
             slug: 'terranova',
-            webAddress: 'artemis.stores',
+            webAddress: 'bionat.gr/el/terranova',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -211,26 +194,21 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/bionat.gr/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/bionat_health_beauty/',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.bionat.gr/el/contact',
         },
         {
             name: 'Holy Llama',
-            number: 13,
+            number: 20,
             sponsor: true,
             slug: 'holy-llama',
-            webAddress: 'artemis.stores',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -256,26 +234,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/holyllamacreativebaking/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/holyllamacreativebaking/?hl=el',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.facebook.com/holyllamacreativebaking/',
         },
         {
             name: 'Mega Meetless',
-            number: 13,
+            number: 27,
             sponsor: true,
             slug: 'mega-meetless',
-            webAddress: 'artemis.stores',
+            webAddress: 'megasyeeros.gr',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -301,26 +275,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/MegasYeeros/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/megasyeeros/',
                     type: 'instagram',
-                },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
                 },
             ],
             contact: 'https://www.artemis.stores/contact',
         },
         {
             name: 'Βιοαγρός',
-            number: 13,
+            number: 26,
             sponsor: true,
-            slug: 'bio-agros',
-            webAddress: 'artemis.stores',
+            slug: 'bioagros',
+            webAddress: 'bioagros.gr',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -346,26 +316,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/bioagros',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/bioagros/',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.bioagros.gr/epikoinwnia',
         },
         {
             name: 'Amino Animo',
-            number: 13,
+            number: 52,
             sponsor: true,
             slug: 'amino-animo',
-            webAddress: 'artemis.stores',
+            webAddress: 'aminoanimo.com',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -391,26 +357,19 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
-                    type: 'facebook',
-                },
-                {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/amino.animo/?_ga=2.9304498.601011555.1664351563-616515377.1664351563',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact:
+                'https://www.aminoanimo.com/%CE%B5%CF%80%CE%B9%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%B1/',
         },
         {
             name: 'Βιο-λόγος Organic',
-            number: 13,
+            number: 95,
             sponsor: true,
             slug: 'bio-logos',
-            webAddress: 'artemis.stores',
+            webAddress: 'bio-logos.com',
             bio: [
                 'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
                 'We see the future of all of us there.',
@@ -434,21 +393,8 @@ export const exhibitors = {
                     img: 'ipethros-product-1.png',
                 },
             ],
-            links: [
-                {
-                    href: 'https://www.facebook.com/',
-                    type: 'facebook',
-                },
-                {
-                    href: 'https://www.instagram.com/',
-                    type: 'instagram',
-                },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
-            ],
-            contact: 'https://www.artemis.stores/contact',
+            links: [],
+            contact: 'https://bio-logos.com/epikoinonia',
         },
     ],
     gr: [
@@ -457,7 +403,7 @@ export const exhibitors = {
             number: 13,
             sponsor: true,
             slug: 'violife',
-            webAddress: 'artemis.stores',
+            webAddress: 'violifefoods.com',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -484,26 +430,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/ViolifeGreece',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/violife_foods/',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://violifefoods.com/el/epikoinwnia/',
         },
         {
             name: 'Beyond Meat',
-            number: 13,
+            number: 31,
             sponsor: true,
             slug: 'beyond-meat',
-            webAddress: 'artemis.stores',
+            webAddress: 'foodelco.gr/beyond-meat-profile',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -530,26 +472,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/beyondmeatdistributiongreece',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/beyondmeatdistributiongr/',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://foodelco.gr/contact/',
         },
         {
             name: 'Βιολογικό Χωριό',
-            number: 13,
+            number: 102,
             sponsor: true,
             slug: 'biologiko-xorio',
-            webAddress: 'artemis.stores',
+            webAddress: 'biologikoxorio.gr',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -576,26 +514,21 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/biologikoxorio',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/biologikoxorio/?hl=el',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.biologikoxorio.gr/contact',
         },
         {
             name: 'Athens Vegan Burgers',
-            number: 13,
+            number: 76,
             sponsor: true,
             slug: 'athens-vegan-burgers',
-            webAddress: 'artemis.stores',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -622,26 +555,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/athensveganburgers/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/athensveganburgers/?hl=el',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.facebook.com/athensveganburgers/',
         },
         {
             name: 'Terranova',
-            number: 13,
+            number: 43,
             sponsor: true,
             slug: 'terranova',
-            webAddress: 'artemis.stores',
+            webAddress: 'bionat.gr/el/terranova',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -668,26 +597,21 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/bionat.gr/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/bionat_health_beauty/',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.bionat.gr/el/contact',
         },
         {
             name: 'Holy Llama',
-            number: 13,
+            number: 20,
             sponsor: true,
             slug: 'holy-llama',
-            webAddress: 'artemis.stores',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -714,26 +638,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/holyllamacreativebaking/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/holyllamacreativebaking/?hl=el',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.facebook.com/holyllamacreativebaking/',
         },
         {
             name: 'Mega Meetless',
-            number: 13,
+            number: 27,
             sponsor: true,
             slug: 'mega-meetless',
-            webAddress: 'artemis.stores',
+            webAddress: 'megasyeeros.gr',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -760,26 +680,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/MegasYeeros/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/megasyeeros/',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.megasyeeros.gr/en/epikoinonia/',
         },
         {
             name: 'Βιοαγρός',
-            number: 13,
+            number: 26,
             sponsor: true,
-            slug: 'bio-agros',
-            webAddress: 'artemis.stores',
+            slug: 'bioagros',
+            webAddress: 'bioagros.gr',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -806,26 +722,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
+                    href: 'https://www.facebook.com/bioagros',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/bioagros/',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.bioagros.gr/epikoinwnia',
         },
         {
             name: 'Amino Animo',
-            number: 13,
+            number: 52,
             sponsor: true,
             slug: 'amino-animo',
-            webAddress: 'artemis.stores',
+            webAddress: 'aminoanimo.com',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -852,26 +764,19 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/',
-                    type: 'facebook',
-                },
-                {
-                    href: 'https://www.instagram.com/',
+                    href: 'https://www.instagram.com/amino.animo/?_ga=2.9304498.601011555.1664351563-616515377.1664351563',
                     type: 'instagram',
                 },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact:
+                'https://www.aminoanimo.com/%CE%B5%CF%80%CE%B9%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%B1/',
         },
         {
             name: 'Βιο-λόγος Organic',
-            number: 13,
+            number: 95,
             sponsor: true,
             slug: 'bio-logos',
-            webAddress: 'artemis.stores',
+            webAddress: 'bio-logos.com',
             bio: [
                 'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
                 'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
@@ -896,21 +801,8 @@ export const exhibitors = {
                     img: 'ipethros-product-1.png',
                 },
             ],
-            links: [
-                {
-                    href: 'https://www.facebook.com/',
-                    type: 'facebook',
-                },
-                {
-                    href: 'https://www.instagram.com/',
-                    type: 'instagram',
-                },
-                {
-                    href: 'https://www.twitter.com/',
-                    type: 'twitter',
-                },
-            ],
-            contact: 'https://www.artemis.stores/contact',
+            links: [],
+            contact: 'https://bio-logos.com/epikoinonia',
         },
     ],
 };

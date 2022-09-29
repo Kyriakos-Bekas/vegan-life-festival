@@ -91,12 +91,25 @@
         }
     }
 
-    .email-field {
-        margin-top: 1.5em;
+    .newsletter {
+        padding-top: 1.5rem;
 
-        h2 {
-            margin-bottom: 1.25rem;
+        .contact-btn {
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: $border-radius;
+            width: 100%;
+            color: $clr-white;
+            font-size: $fs-400;
             font-weight: 500;
+            text-align: center;
+            background-color: $clr-dark;
+            display: block;
+
+            &:hover {
+                cursor: pointer;
+                background-color: darken($clr-dark, 5%);
+            }
         }
     }
 }

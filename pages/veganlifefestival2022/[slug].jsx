@@ -1,9 +1,7 @@
-import EmailInput from '@/components/EmailInput/EmailInput';
 import Product from '@/components/Product/Product';
 import SocialLink from '@/components/SocialLink/SocialLink';
 import { text } from '@/data/data';
 import { exhibitors } from '@/data/exhibitors';
-import { useLocaleContext } from '@/hooks/useLocaleContext';
 import BasicLayout from '@/layouts/BasicLayout/BasicLayout';
 import style from '@/styles/pages/PersonalPage.module.scss';
 import Head from 'next/head';
@@ -30,8 +28,7 @@ export async function getStaticProps(context) {
  */
 
 const PersonalPage = ({ slug }) => {
-    const { locale } = useLocaleContext();
-    const exhibitor = text[locale].exhibitors.list.find(
+    const exhibitor = text['gr'].exhibitors.list.find(
         (exhibitor) => exhibitor.slug === slug
     );
 
@@ -59,15 +56,15 @@ const PersonalPage = ({ slug }) => {
                             {exhibitor.sponsor && (
                                 <span className={style.sponsor}>Sponsor</span>
                             )}
-                            <span className={style.number}>{`${
-                                locale === 'gr' ? 'Περίπτερο' : 'Bench'
-                            } ${exhibitor.number}`}</span>
+                            <span
+                                className={style.number}
+                            >{`Περίπτερο ${exhibitor.number}`}</span>
                         </p>
                         <div className={style.head}>
                             <h1 className="fs-800">{exhibitor.name}</h1>
 
                             {exhibitor.webAddress && (
-                                <Link href={exhibitor.webAddress}>
+                                <Link href={`https://${exhibitor.webAddress}`}>
                                     <a
                                         className={style['web-address']}
                                         target="_blank"
@@ -87,9 +84,9 @@ const PersonalPage = ({ slug }) => {
 
                     {exhibitor.products && (
                         <section>
-                            <h2 className="fs-600 text-dark">{`Best-sellers ${
-                                locale === 'gr' ? 'Προϊόντα' : 'Products'
-                            }`}</h2>
+                            <h2 className="fs-600 text-dark">
+                                Best-seller Προϊόντα
+                            </h2>
 
                             <ul>
                                 {exhibitor.products.map((product, index) => (
@@ -105,32 +102,32 @@ const PersonalPage = ({ slug }) => {
                         </section>
                     )}
 
-                    <section className={style['social-links']}>
-                        <h2 className="fs-600 text-dark">
-                            {locale === 'gr' ? 'Κάνε μας follow' : 'Follow us'}
-                        </h2>
-
-                        <ul>
-                            {exhibitor.links.map((link) => (
-                                <li key={link.type}>
-                                    <SocialLink {...link} />
-                                </li>
-                            ))}
-                        </ul>
-                    </section>
-
-                    {exhibitor.email && (
-                        <section className={style['email-field']}>
-                            <h2 className="fs-500 text-dark">
-                                {locale === 'gr'
-                                    ? 'Εγγραφείτε στο newsletter για να λάβετε τον κατάλογό μας'
-                                    : 'Join our newsletter to receive our catalog and exclusive offers'}
+                    {exhibitor.links.length > 0 && (
+                        <section className={style['social-links']}>
+                            <h2 className="fs-600 text-dark">
+                                Κάνε μας follow
                             </h2>
 
-                            <EmailInput
-                                destination={exhibitor.email}
-                                slug={slug}
-                            />
+                            <ul>
+                                {exhibitor.links.map((link) => (
+                                    <li key={link.type}>
+                                        <SocialLink {...link} />
+                                    </li>
+                                ))}
+                            </ul>
+                        </section>
+                    )}
+
+                    {exhibitor.contact && (
+                        <section className={style.newsletter}>
+                            <Link href={exhibitor.contact}>
+                                <a
+                                    target="_blank"
+                                    className={style['contact-btn']}
+                                >
+                                    Γίνε μέλος του newsletter μας
+                                </a>
+                            </Link>
                         </section>
                     )}
                 </article>
