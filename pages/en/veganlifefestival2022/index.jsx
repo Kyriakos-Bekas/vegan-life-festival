@@ -1,9 +1,9 @@
 import {
     Activities,
     Exhibitors,
-    Giveaway,
     Hero,
     LocationMap,
+    Newsletter,
     Speeches,
     Sponsors,
     Transport,
@@ -17,7 +17,7 @@ export default function Home() {
             <Hero />
             <Activities />
             <Sponsors />
-            <Giveaway />
+            <Newsletter />
             <Speeches />
             <Workshops />
             <LocationMap />

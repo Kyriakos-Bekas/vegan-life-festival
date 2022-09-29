@@ -17,10 +17,9 @@ const SingleSponsor = ({ name, prime = false, img, link }) => {
                     <Image
                         src={img}
                         alt={`${name} Logo`}
-                        width={prime ? 61 : 48}
-                        height={prime ? 61 : 48}
+                        width={prime ? 98 : 80}
+                        height={prime ? 98 : 80}
                     />
-                    {/* <img src={img} alt={`${name} Logo`} /> */}
 
                     <h1 className={`fs-${prime ? '400' : '200'} text-dark`}>
                         {name}

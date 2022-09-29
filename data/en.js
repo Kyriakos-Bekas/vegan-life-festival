@@ -1,5 +1,6 @@
 import { exhibitors } from './exhibitors';
 import { speeches } from './speeches';
+import { sponsors } from './sponsors';
 import { workshops } from './workshops';
 
 export const en = {
@@ -7,7 +8,7 @@ export const en = {
         'home',
         'activities',
         'sponsors',
-        'giveaway',
+        'newsletter',
         'speeches',
         'workshops',
         'map',
@@ -31,65 +32,18 @@ export const en = {
         'Live DJ Set',
         'Vegan Meetup',
     ],
-    giveaway: {
-        title: 'Special Giveaway',
+    newsletter: {
+        title: 'Newsletter',
         description: [
-            'Do you want to be one of the 5 lucky winners to win a 100€ voucher?',
-            'Register now by simply entering your email below!',
+            'Want to stay up to date with our news?',
+            "Subscribe to our newsletter and we'll keep you posted!",
         ],
-        button: 'Submit',
+        link: '#',
     },
     sponsors: {
         title: 'Sponsors',
         description: 'We would like to thank our sponsors for their support!',
-        sponsors: [
-            {
-                name: 'Vegan Zero Waste Products',
-                prime: true,
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Vegan Zero Waste Products',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Vegan Zero Waste Products',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Vegan Zero Waste Products',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Vegan Zero Waste Products',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Vegan Zero Waste Products',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Vegan Zero Waste Products',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Vegan Zero Waste Products',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Vegan Zero Waste Products',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-        ],
+        sponsors: sponsors,
     },
     speeches: {
         title: 'Speeches',

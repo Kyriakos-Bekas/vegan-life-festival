@@ -8,9 +8,11 @@ const Product = ({ title, description, img }) => {
                 <p className="fs-300">{description}</p>
             </div>
 
-            <div className={style.thumbnail}>
-                <img src={`/products/${img}`} alt={`${title} Photo`} />
-            </div>
+            {img && (
+                <div className={style.thumbnail}>
+                    <img src={`/products/${img}`} alt={`${title} Photo`} />
+                </div>
+            )}
         </article>
     );
 };

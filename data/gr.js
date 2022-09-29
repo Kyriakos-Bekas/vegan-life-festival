@@ -1,5 +1,6 @@
 import { exhibitors } from './exhibitors';
 import { speeches } from './speeches';
+import { sponsors } from './sponsors';
 import { workshops } from './workshops';
 
 export const gr = {
@@ -7,7 +8,7 @@ export const gr = {
         'αρχική',
         'δραστηριότητες',
         'χορηγοί',
-        'giveaway',
+        'newsletter',
         'ομιλίες',
         'εργαστήρια',
         'χάρτης',
@@ -31,67 +32,19 @@ export const gr = {
         'Live DJ Set',
         'Vegan Meetup',
     ],
-    giveaway: {
-        title: 'Μοναδικό Giveaway',
+    newsletter: {
+        title: 'Newsletter',
         description: [
-            'Θες να είσαι ανάμεσα στους 5 τυχερούς που θα κερδίσουν κουπόνια αξίας 100€;',
-            'Δήλωσε συμμετοχή τώρα απλά εισάγοντας το email σου παρακάτω!',
+            'Θέλεις να μένεις ενημερωμένος για τα νέα μας;',
+            'Εγγράψου στο newsletter μας για να γνωρίζεις τα πάντα για το VeganLife στο email σας!',
         ],
-        placeholder: 'Γράψε το email σου εδώ',
-        button: 'Αποστολή',
+        link: '#',
     },
     sponsors: {
         title: 'Χορηγοι',
         description:
             'Ευχαριστούμε τους χορηγούς μας για την υποστήριξη του Vegan Athens Festival 2022. Είναι μέσω της συνεργασίας μας που μπορούμε να συνεχίσουμε να δημιουργούμε αυτό το εκπληκτικό εγχείρημα.',
-        sponsors: [
-            {
-                name: 'Ελληνική Ομοσπονδία Βιολογικής Γεωργίας',
-                prime: true,
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Ελληνική Ομοσπονδία Βιολογικής Γεωργίας',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Ελληνική Ομοσπονδία Βιολογικής Γεωργίας',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Ελληνική Ομοσπονδία Βιολογικής Γεωργίας',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Ελληνική Ομοσπονδία Βιολογικής Γεωργίας',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Ελληνική Ομοσπονδία Βιολογικής Γεωργίας',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Ελληνική Ομοσπονδία Βιολογικής Γεωργίας',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Ελληνική Ομοσπονδία Βιολογικής Γεωργίας',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-            {
-                name: 'Ελληνική Ομοσπονδία Βιολογικής Γεωργίας',
-                img: '/sponsors/1.png',
-                link: '#',
-            },
-        ],
+        sponsors: sponsors,
     },
     speeches: {
         title: 'Ομιλιες',

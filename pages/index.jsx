@@ -1,3 +1,4 @@
+import style from '@/styles/pages/LandingPage.module.scss';
 import Head from 'next/head';
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
                 <meta name="description" content="Qanibal" />
             </Head>
 
-            <div className="container">
+            <div className={`${style.page} container`}>
                 {/* <header>
                     <img src="/vercel.svg" alt="Qanibal Logo" />
                 </header> */}
@@ -21,6 +22,15 @@ const Home = () => {
                         Iure tempora tenetur, recusandae officia porro rem saepe
                         enim ea architecto, harum vero maxime ab aliquid.
                     </p>
+
+                    <section>
+                        <h2>Πολιτική Απορρήτου</h2>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Temporibus sunt dolore autem.
+                        </p>
+                    </section>
                 </main>
             </div>
         </>

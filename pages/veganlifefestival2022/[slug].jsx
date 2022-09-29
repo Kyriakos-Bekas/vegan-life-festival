@@ -2,7 +2,7 @@ import EmailInput from '@/components/EmailInput/EmailInput';
 import Product from '@/components/Product/Product';
 import SocialLink from '@/components/SocialLink/SocialLink';
 import { text } from '@/data/data';
-import { demoExhibitors } from '@/data/exhibitor-display-list';
+import { exhibitors } from '@/data/exhibitors';
 import { useLocaleContext } from '@/hooks/useLocaleContext';
 import BasicLayout from '@/layouts/BasicLayout/BasicLayout';
 import style from '@/styles/pages/PersonalPage.module.scss';
@@ -10,7 +10,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 export async function getStaticPaths() {
-    const paths = demoExhibitors
+    const paths = exhibitors.en
         .filter((exhibitor) => exhibitor.slug)
         .map((exhibitor) => ({
             params: { slug: exhibitor.slug },
@@ -26,8 +26,7 @@ export async function getStaticProps(context) {
 }
 
 /*
- * In order to display the right (dynamic) banners,
- * uncomment the comments and delete static lines
+ * In order to display the right (dynamic) banners, delete static lines
  */
 
 const PersonalPage = ({ slug }) => {
@@ -98,12 +97,7 @@ const PersonalPage = ({ slug }) => {
                                         <Product
                                             title={product.title}
                                             description={product.description}
-                                            // img={`${exhibitor.name}-product-${
-                                            //     index + 1
-                                            // }.png`}
-                                            img={`ipethros-product-${
-                                                index + 1
-                                            }.png`}
+                                            img={product.img}
                                         />
                                     </li>
                                 ))}
