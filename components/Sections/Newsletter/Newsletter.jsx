@@ -30,21 +30,14 @@ const Newsletter = () => {
 
             <svg
                 className={style.blob}
-                width="75"
+                width="105"
                 height="125"
-                viewBox="0 0 75 125"
+                viewBox="0 0 105 125"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
             >
-                <g clipPath="url(#clip0_163_50)">
-                    <circle cx="4.5" cy="22.5" r="21.5" fill="#D15E49" />
-                    <circle cx="19" cy="75" r="49" fill="#EE674F" />
-                </g>
-                <defs>
-                    <clipPath id="clip0_163_50">
-                        <rect width="75" height="125" fill="white" />
-                    </clipPath>
-                </defs>
+                <circle cx="34.5" cy="22.5" r="21.5" fill="#D15E49" />
+                <circle cx="49" cy="75" r="49" fill="#EE674F" />
             </svg>
         </section>
     );
