@@ -7,8 +7,8 @@ export const exhibitors = {
             slug: 'violife',
             webAddress: 'violifefoods.com',
             bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
+                'Violife comes from the Greek word Vios, which means Life. So it’s actually, life squared, live life to the full.',
+                'With more than 30 years of vegan products development and production experience, Violife is the world leader with a global footprint, backed by the world’s largest plant based food transformation company, Upfield.',
             ],
             products: [
                 {
@@ -48,8 +48,8 @@ export const exhibitors = {
             slug: 'beyond-meat',
             webAddress: 'foodelco.gr/beyond-meat-profile',
             bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
+                'Στη Beyond Meat πιστεύουμε ότι υπάρχει ένας καλύτερος τρόπος να ταΐζουμε τον πλανήτη. Η αποστολή μας είναι να δημιουργήσουμε το μέλλον της πρωτεΐνης (The Future of Protein®) - με πεντανόστιμα plant based burger, κιμά για tacos, λουκάνικα κ.α. - τα οποία παράγονται από απλά φυτικά υλικά. Με τη μετάβαση από ζωϊκό κρέας σε plant based κρέας, δημιουργούμε μια πολύ γευστική επιλογή η οποία λύνει 4 σημαντικά θέματα σε σχέση με την κτηνοτροφία: ανθρώπινη υγεία, κλιματική αλλαγή, καταστροφή των φυσικών πόρων και κακομεταχείριση των ζώων.',
+                'Αυτό είναι σίγουρα τροφή για σκέψη!',
             ],
             products: [
                 {
@@ -83,14 +83,13 @@ export const exhibitors = {
             contact: 'https://foodelco.gr/contact/',
         },
         {
-            name: 'Βιολογικό Χωριό',
+            name: 'Biologiko Xorio',
             number: 102,
             sponsor: true,
             slug: 'biologiko-xorio',
             webAddress: 'biologikoxorio.gr',
             bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
+                'Biologiko Xorio has been active in the field of organic products since 2008, with the first physical store based in Voula of Attica and until now, is considered the largest purely Greek chain of organic stores in all of Attica, Patra, Larisa, maintaining 26 stores. It offers a wide variety of organic food, special nutrition products, personal care, baby and children, nutritional supplements but also household items.',
             ],
             products: [
                 {
@@ -129,8 +128,7 @@ export const exhibitors = {
             sponsor: true,
             slug: 'athens-vegan-burgers',
             bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
+                'A must-visit burger spot with exclusively plant-based ingredients!',
             ],
             products: [
                 {
@@ -168,10 +166,9 @@ export const exhibitors = {
             number: 43,
             sponsor: true,
             slug: 'terranova',
-            webAddress: 'bionat.gr/el/terranova',
+            webAddress: 'bionat.gr/en',
             bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
+                'Founded in 2008 and launched in 2009, Terranova Synergistic Nutrition is a multi-award winning supplement company with a range of more than 100 different nutritional and botanical products. Formulated and manufactured in Britain, Terranova is one of only a few large-scale supplement companies in the industry that does not use fillers, binders and other manufacturing additives in its products, and one of even fewer such companies that is 100% suitable for vegans. Terranova’s formulation concept is scientifically advanced, while at the same time being rooted in the company’s deeply holistic principles. This unique approach provides intensely synergistic nutritional and botanical formulations that are profoundly effective, precisely balanced, gentle on the system and which contain only active ingredients.',
             ],
             products: [
                 {
@@ -194,25 +191,22 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/bionat.gr/',
+                    href: 'https://www.facebook.com/TerranovaNutritionGR/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/bionat_health_beauty/',
+                    href: 'https://www.instagram.com/terranova_nutrition_greece/',
                     type: 'instagram',
                 },
             ],
-            contact: 'https://www.bionat.gr/el/contact',
+            contact: 'https://www.bionat.gr/en/contact',
         },
         {
             name: 'Holy Llama',
             number: 20,
             sponsor: true,
             slug: 'holy-llama',
-            bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
-            ],
+            bio: ['Creative baking'],
             products: [
                 {
                     title: 'Oregano 30 gr.',
@@ -238,7 +232,7 @@ export const exhibitors = {
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/holyllamacreativebaking/?hl=el',
+                    href: 'https://www.instagram.com/holyllamacreativebaking/',
                     type: 'instagram',
                 },
             ],
@@ -249,10 +243,9 @@ export const exhibitors = {
             number: 27,
             sponsor: true,
             slug: 'mega-meetless',
-            webAddress: 'megasyeeros.gr',
+            webAddress: 'megasyeeros.gr/en/meatless',
             bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
+                'The new mega meatless series introduces us to the world of "alternative" meat. A world that promotes healthy eating, proposes new eating habits, respects natural resources and the environment by creating favorite dishes in a completely new, healthy and above all innovative way.',
             ],
             products: [
                 {
@@ -283,17 +276,16 @@ export const exhibitors = {
                     type: 'instagram',
                 },
             ],
-            contact: 'https://www.artemis.stores/contact',
+            contact: 'https://www.megasyeeros.gr/en/epikoinonia/',
         },
         {
             name: 'Βιοαγρός',
             number: 26,
             sponsor: true,
             slug: 'bioagros',
-            webAddress: 'bioagros.gr',
+            webAddress: 'bioagros.gr/en',
             bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
+                'Since 1990 we are one of the largest and leading Greek organic food companies. We have a significant know-how in the field of organic food products and we are constantly evolving through research and development of new products. We study the modern trends while we are very strict in the choice of raw materials and quality control. Our goal is for our products to fulfill the needs of the modern way of life and offer natural and beneficial benefits to the human body, as well as improve the quality of life of our consumers in general. The BioAgros brand is a guarantee that "you know what you eat"!',
             ],
             products: [
                 {
@@ -324,17 +316,16 @@ export const exhibitors = {
                     type: 'instagram',
                 },
             ],
-            contact: 'https://www.bioagros.gr/epikoinwnia',
+            contact: 'https://www.bioagros.gr/en/contact-us',
         },
         {
             name: 'Amino Animo',
             number: 52,
             sponsor: true,
             slug: 'amino-animo',
-            webAddress: 'aminoanimo.com',
+            webAddress: 'aminoanimo.com/?lang=en',
             bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
+                'AMINO ANIMO is an award-winning brand of top-quality vegan proteins, from 100% organic, carefully selected raw materials. Guided by the needs of modern humans and a healthier lifestyle for everyone, AMINO ANIMO organic proteins are produced in Greece from almonds, peas, sunflower seeds, pumpkin seeds, rice and fava beans, and are packaged in fully recyclable packaging to preserve all the vitamins and nutrients. During the development process of our proteins, we do not use preservatives, mutated ingredients, gluten, lactose, soy, sugar or salt, and we do not perform animal experiments.',
             ],
             products: [
                 {
@@ -361,18 +352,17 @@ export const exhibitors = {
                     type: 'instagram',
                 },
             ],
-            contact:
-                'https://www.aminoanimo.com/%CE%B5%CF%80%CE%B9%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%B1/',
+            contact: 'https://www.aminoanimo.com/contact-methods/?lang=en',
         },
         {
             name: 'Βιο-λόγος Organic',
             number: 95,
             sponsor: true,
             slug: 'bio-logos',
-            webAddress: 'bio-logos.com',
+            webAddress: 'bio-logos.com/en',
             bio: [
-                'We invest in the power of nature, we support its harmonious coexistence with us, we believe in the value of the earth and we wait for it to give us with its rhythm what is better and purer for us. We believe in the future of all of us.',
-                'We see the future of all of us there.',
+                'INSPIRED BY NATURE AND SCIENCE',
+                'Our blessed Cycladic island, where rare and protected plants and herbs are grown, taught us the love of nature and purity. On this very land developed our passion for outstanding, beneficial raw materials and their utilisation for nutritive, therapeutic and cosmetic products.',
             ],
             products: [
                 {
@@ -394,7 +384,7 @@ export const exhibitors = {
                 },
             ],
             links: [],
-            contact: 'https://bio-logos.com/epikoinonia',
+            contact: 'https://bio-logos.com/en/epikoinonia',
         },
     ],
     gr: [
@@ -403,10 +393,10 @@ export const exhibitors = {
             number: 13,
             sponsor: true,
             slug: 'violife',
-            webAddress: 'violifefoods.com',
+            webAddress: 'violifefoods.com/el',
             bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
+                'Τα vegan προϊόντα Violife, όπως μας προδιαθέτει το όνομά τους – «Vio» δηλαδή Βίος και «Life» όπως Ζωή μας βοηθούν να γευτούμε τη... ζωή στο τετράγωνο!',
+                'Με περισσότερα από 30 χρόνια εμπειρίας στην ανάπτυξη και παραγωγή vegan προϊόντων, τα Violife είναι ο παγκόσμιος ηγέτης έχοντας διεθνή παρουσία. Τα Violife ανήκουν πλέον στη μεγαλύτερη εταιρεία παραγωγής και διάθεσης φυτικών τροφίμων παγκοσμίως, την Upfield.',
             ],
             products: [
                 {
@@ -447,8 +437,8 @@ export const exhibitors = {
             slug: 'beyond-meat',
             webAddress: 'foodelco.gr/beyond-meat-profile',
             bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
+                'Στη Beyond Meat πιστεύουμε ότι υπάρχει ένας καλύτερος τρόπος να ταΐζουμε τον πλανήτη. Η αποστολή μας είναι να δημιουργήσουμε το μέλλον της πρωτεΐνης (The Future of Protein®) - με πεντανόστιμα plant based burger, κιμά για tacos, λουκάνικα κ.α. - τα οποία παράγονται από απλά φυτικά υλικά. Με τη μετάβαση από ζωϊκό κρέας σε plant based κρέας, δημιουργούμε μια πολύ γευστική επιλογή η οποία λύνει 4 σημαντικά θέματα σε σχέση με την κτηνοτροφία: ανθρώπινη υγεία, κλιματική αλλαγή, καταστροφή των φυσικών πόρων και κακομεταχείριση των ζώων.',
+                'Αυτό είναι σίγουρα τροφή για σκέψη!',
             ],
             products: [
                 {
@@ -489,8 +479,7 @@ export const exhibitors = {
             slug: 'biologiko-xorio',
             webAddress: 'biologikoxorio.gr',
             bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
+                'Το Βιολογικό Χωριό δραστηριοποιείται στο χώρο των βιολογικών προϊόντων από το 2008 και έως σήμερα είναι η μεγαλύτερη αμιγώς ελληνική αλυσίδα βιολογικών καταστημάτων σε όλη την Αττική, την Πάτρα και τη Λάρισα με 26 καταστήματα. Προσφέρουμε μεγάλη ποικιλία σε βιολογικά τρόφιμα, προϊόντα ειδικής διατροφής, προσωπικής περιποίησης, βρεφικά και παιδικά, συμπληρώματα διατροφής αλλά και σε είδη οικιακής χρήσης.',
             ],
             products: [
                 {
@@ -530,8 +519,7 @@ export const exhibitors = {
             sponsor: true,
             slug: 'athens-vegan-burgers',
             bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
+                'Ένα must-visit burger spot με αποκλειστικά plant-based πρώτες ύλες!',
             ],
             products: [
                 {
@@ -572,8 +560,7 @@ export const exhibitors = {
             slug: 'terranova',
             webAddress: 'bionat.gr/el/terranova',
             bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
+                'Η Terranova Synergistic Nutrition είναι μια πολυβραβευμένη εταιρεία συμπληρωμάτων με μια σειρά από περισσότερα από 100 διαφορετικά διατροφικά και βοτανικά προϊόντα, που ιδρύθηκε το 2008 και λανσαρίστηκε το 2009. Με έδρα τη Μεγάλη Βρετανία, η Terranova είναι μία από τις λίγες μεγάλες εταιρείες συμπληρωμάτων στον κλάδο που δεν χρησιμοποιεί fillers,binders και άλλα πρόσθετα παραγωγής στα προϊόντα της και μία από τις ακόμη λιγότερες εταιρείες που είναι 100% κατάλληλη για vegans . Η ιδέα της σύνθεσης της Terranova είναι επιστημονικά προηγμένη, ενώ ταυτόχρονα έχει τις ρίζες της στις βαθιά ολιστικές αρχές της εταιρείας. Αυτή η μοναδική προσέγγιση παρέχει έντονα συνεργιστικά θρεπτικά και βοτανικά σκευάσματα που είναι βαθιά αποτελεσματικά, ισορροπημένα με ακρίβεια, απαλά στο σύστημα και περιέχουν μόνο ενεργά συστατικά.',
             ],
             products: [
                 {
@@ -597,11 +584,11 @@ export const exhibitors = {
             ],
             links: [
                 {
-                    href: 'https://www.facebook.com/bionat.gr/',
+                    href: 'https://www.facebook.com/TerranovaNutritionGR/',
                     type: 'facebook',
                 },
                 {
-                    href: 'https://www.instagram.com/bionat_health_beauty/',
+                    href: 'https://www.instagram.com/terranova_nutrition_greece/?hl=el',
                     type: 'instagram',
                 },
             ],
@@ -612,10 +599,7 @@ export const exhibitors = {
             number: 20,
             sponsor: true,
             slug: 'holy-llama',
-            bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
-            ],
+            bio: ['Creative baking'],
             products: [
                 {
                     title: 'Ρίγανη 30 γρ.',
@@ -653,10 +637,9 @@ export const exhibitors = {
             number: 27,
             sponsor: true,
             slug: 'mega-meetless',
-            webAddress: 'megasyeeros.gr',
+            webAddress: 'megasyeeros.gr/meatless/',
             bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
+                'H νέα σειρά mega meatless μας μυεί στο κόσμο του «εναλλακτικού» κρέατος. Ένα κόσμο που προάγει την healthy διατροφή, προτείνει καινούργιες διατροφικές συνήθειες, σέβεται τους φυσικούς πόρους και το περιβάλλον δημιουργώντας αγαπημένα πιάτα με έναν εντελώς νέο, υγιεινό και κυρίως καινοτόμο τρόπο.',
             ],
             products: [
                 {
@@ -695,10 +678,9 @@ export const exhibitors = {
             number: 26,
             sponsor: true,
             slug: 'bioagros',
-            webAddress: 'bioagros.gr',
+            webAddress: 'bioagros.gr/en',
             bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
+                'Από το 1990 είμαστε από τις μεγαλύτερες και πρωτοπόρους ελληνικές εταιρίες βιολογικών τροφίμων. Διαθέτουμε σημαντική τεχνογνωσία στον κλάδο των βιολογικών προϊόντων διατροφής και εξελισσόμαστε συνεχώς μέσα από την έρευνα και ανάπτυξη νέων προϊόντων. Μελετάμε τις σύγχρονες τάσεις ενώ είμαστε ιδιαίτερα αυστηροί στην επιλογή πρώτων υλών και στον ποιοτικό έλεγχο. Στόχος μας είναι, τα προϊόντα μας να ανταποκρίνονται στις ανάγκες του σύγχρονου τρόπου ζωής και να προσφέρουν φυσικά και ευεργετικά οφέλη στον ανθρώπινο οργανισμό καθώς και να βελτιώνουν την ποιότητα ζωής των καταναλωτών ευρύτερα. Το σήμα ΒιοΑγρός αποτελεί εγγύηση ότι «ξέρεις τι τρως»!',
             ],
             products: [
                 {
@@ -739,8 +721,7 @@ export const exhibitors = {
             slug: 'amino-animo',
             webAddress: 'aminoanimo.com',
             bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
+                'Οι οργανικές πρωτεΐνες AMINO ANIMO είναι μια βραβευμένη σειρά vegan πρωτεϊνών κορυφαίας ποιότητας, από 100% βιολογικές πρώτες ύλες προσεκτικά επιλεγμένων καλλιεργειών. Με γνώμονα τις ανάγκες του σύγχρονου ανθρώπου κι έναν πιο υγιεινό τρόπο ζωής για όλους, οι φυτικές πρωτεΐνες AMINO ANIMO παράγονται στην Ελλάδα από αμύγδαλο, αρακά, ηλιόσπορο, κολοκυθόσπορο, ρύζι και φάβα και συσκευάζονται σε ανακυκλώσιμες συσκευασίες, ώστε να διατηρούνται αναλλοίωτες οι βιταμίνες και τα θρεπτικά συστατικά. Για την παραγωγή των πρωτεϊνών δε χρησιμοποιούμε συντηρητικά, μεταλλαγμένα συστατικά, γλουτένη, λακτόζη, σόγια, ζάχαρη ή αλάτι, καθώς και δεν πραγματοποιούμε δοκιμές σε ζώα.',
             ],
             products: [
                 {
@@ -769,7 +750,7 @@ export const exhibitors = {
                 },
             ],
             contact:
-                'https://www.aminoanimo.com/%CE%B5%CF%80%CE%B9%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%B1/',
+                'https://www.aminoanimo.com/%ce%b5%cf%80%ce%b9%ce%ba%ce%bf%ce%b9%ce%bd%cf%89%ce%bd%ce%b9%ce%b1/',
         },
         {
             name: 'Βιο-λόγος Organic',
@@ -778,8 +759,8 @@ export const exhibitors = {
             slug: 'bio-logos',
             webAddress: 'bio-logos.com',
             bio: [
-                'Επενδύουμε στη δύναμη της υπαίθρου, υποστηρίζουμε την αρμονική συνύπαρξη με αυτήν, πιστεύουμε στην αξία της γης και στην αναμονή για να μας δώσει με το ρυθμό της ό,τι καλύτερο και αγνότερο μπορεί.',
-                'Εμείς εκεί βλέπουμε το μέλλον όλων μας.',
+                'ΕΜΠΝΕΥΣΜΕΝΟΙ ΑΠΟ ΤΗ ΦΥΣΗ ΚΑΙ ΤΗΝ ΕΠΙΣΤΗΜΗ',
+                'Το ευλογημένο κυκλαδίτικο νησί, με τα σπάνια και προστατευόμενα φυτά και βότανα, μας δίδαξε την αγάπη για το φυσικό και το ανόθευτο. Πάνω στη γη της, καλλιεργήθηκε το πάθος μας για τις ευεργετικές πρώτες ύλες και την αξιοποίησή τους για βρώση, θεραπεία και καλλυντική περιποίηση.',
             ],
             products: [
                 {
