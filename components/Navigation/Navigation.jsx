@@ -119,7 +119,9 @@ const Navigation = () => {
                     {navLinks.map((link, index) => (
                         <li key={index}>
                             <Link
-                                href={`#${
+                                href={`${
+                                    locale === 'en' ? '/en' : ''
+                                }/veganlifefestival2022#${
                                     navLinksEN[index] !== 'home'
                                         ? navLinksEN[index]
                                         : ''
