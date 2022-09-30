@@ -1,4 +1,5 @@
 import Activities from './Activities/Activities';
+import ChildrenActivities from './ChildrenActivities/ChildrenActivities';
 import Exhibitors from './Exhibitors/Exhibitors';
 import Hero from './Hero/Hero';
 import LocationMap from './LocationMap/LocationMap';
@@ -11,6 +12,7 @@ import Workshops from './Workshops/Workshops';
 
 export {
     Hero,
+    ChildrenActivities,
     Speeches,
     Workshops,
     LocationMap,

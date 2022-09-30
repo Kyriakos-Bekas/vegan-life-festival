@@ -1,5 +1,6 @@
 import {
     Activities,
+    ChildrenActivities,
     Exhibitors,
     Hero,
     LocationMap,
@@ -20,6 +21,7 @@ export default function Home() {
             <Newsletter />
             <Speeches />
             <Workshops />
+            <ChildrenActivities />
             <LocationMap />
             <Exhibitors />
             <Transport />
