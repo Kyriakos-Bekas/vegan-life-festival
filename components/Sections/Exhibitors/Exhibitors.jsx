@@ -1,6 +1,7 @@
 import { text } from '@/data/data';
 import { displayList as list } from '@/data/exhibitor-display-list';
 import { useLocaleContext } from '@/hooks/useLocaleContext';
+// import style from '@/styles/pages/Exhibitors.module.scss';
 import ExhibitorList from './ExhibitorList/ExhibitorList';
 import Search from './Search/Search';
 
@@ -17,7 +18,9 @@ const Exhibitors = () => {
 
             <Search />
 
+            {/* <div className={style['list-container']}> */}
             <ExhibitorList exhibitors={list} />
+            {/* </div> */}
         </section>
     );
 };
