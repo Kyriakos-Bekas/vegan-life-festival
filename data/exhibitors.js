@@ -774,5 +774,10 @@ export const exhibitors = {
             links: [],
             contact: 'https://bio-logos.com/epikoinonia',
         },
+        // Not Sponsors
+        {
+            name: 'NARD - National Animal Rights Day',
+            number: '127',
+        },
     ],
 };

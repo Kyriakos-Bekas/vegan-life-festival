@@ -37,7 +37,7 @@ export const gr = {
         title: 'Newsletter',
         description: [
             'Θέλεις να μένεις ενημερωμένος για τα νέα μας;',
-            'Εγγράψου στο newsletter μας για να γνωρίζεις τα πάντα για το VeganLife στο email σας!',
+            'Εγγράψου στο newsletter μας για να γνωρίζεις τα πάντα για το VeganLife στο email σου!',
         ],
         link: 'https://el.veganlife.gr/contact#comp-kktn8xi2',
     },
@@ -117,7 +117,7 @@ export const gr = {
                 name: 'Μετρό',
                 description: 'Γραμμή 1, Θησείο',
                 img: '/logos/metro.png',
-                link: 'https://goo.gl/maps/pTWEFe898Av4h5Zu6https://www.google.com/maps/place/%CE%98%CE%B7%CF%83%CE%B5%CE%AF%CE%BF/@37.9782185,23.7150687,17z/data=!4m21!1m15!4m14!1m6!1m2!1s0x14a1bcdf88978a8b:0x198e1f6bb95c46b4!2zzqTOtc-Hzr3PjM-Azr_Ou865z4IsIM6RzrjOrs69zrE!2m2!1d23.7136161!2d37.9777776!1m6!1m2!1s0x14a1bd219380f125:0x4ed75d14aa1b1a2c!2zzpjOt8-DzrXOr86_LCDOkc64zq7Ovc6xIDExOCA1MQ!2m2!1d23.7207061!2d37.9767093!3m4!1s0x14a1bd219380f125:0x4ed75d14aa1b1a2c!8m2!3d37.9767093!4d23.7207061',
+                link: 'https://www.google.com/maps/place/%CE%98%CE%B7%CF%83%CE%B5%CE%AF%CE%BF/@37.9782185,23.7150687,17z/data=!4m21!1m15!4m14!1m6!1m2!1s0x14a1bcdf88978a8b:0x198e1f6bb95c46b4!2zzqTOtc-Hzr3PjM-Azr_Ou865z4IsIM6RzrjOrs69zrE!2m2!1d23.7136161!2d37.9777776!1m6!1m2!1s0x14a1bd219380f125:0x4ed75d14aa1b1a2c!2zzpjOt8-DzrXOr86_LCDOkc64zq7Ovc6xIDExOCA1MQ!2m2!1d23.7207061!2d37.9767093!3m4!1s0x14a1bd219380f125:0x4ed75d14aa1b1a2c!8m2!3d37.9767093!4d23.7207061',
             },
             {
                 name: 'Λεωφορείο',
