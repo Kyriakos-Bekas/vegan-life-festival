@@ -1,8 +1,10 @@
+import Footer from '@/components/Footer/Footer';
+import Navigation from '@/components/Navigation/Navigation';
 import Product from '@/components/Product/Product';
 import SocialLink from '@/components/SocialLink/SocialLink';
 import { text } from '@/data/data';
 import { exhibitors } from '@/data/exhibitors';
-import BasicLayout from '@/layouts/BasicLayout/BasicLayout';
+import PlainLayout from '@/layouts/PlainLayout/PlainLayout';
 import style from '@/styles/pages/PersonalPage.module.scss';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -29,110 +31,124 @@ const PersonalPage = ({ slug }) => {
     );
 
     return (
-        <BasicLayout>
-            <div className={style.page}>
-                <Head>
-                    <title>{`Vegan Life Festival | ${slug}`}</title>
-                </Head>
+        <PlainLayout>
+            <Navigation slug={slug} />
 
-                <header>
-                    <img
-                        className={style.banner}
-                        src={`/banners/${slug}-banner.png`}
-                        alt={`${exhibitor.name} Banner`}
-                        style={{
-                            objectFit: `${
-                                slug === 'amino-animo' ? 'cover' : 'contain'
-                            }`,
-                        }}
-                    />
-                </header>
+            <div className={style.content}>
+                <div className={style.page}>
+                    <Head>
+                        <title>{`Vegan Life Festival | ${slug}`}</title>
+                    </Head>
 
-                <article className={`container ${style.body}`}>
-                    <p></p>
+                    <header>
+                        <img
+                            className={style.banner}
+                            src={`/banners/${slug}-banner.png`}
+                            alt={`${exhibitor.name} Banner`}
+                            style={{
+                                objectFit: `${
+                                    slug === 'amino-animo' ? 'cover' : 'contain'
+                                }`,
+                            }}
+                        />
+                    </header>
 
-                    <section className={`text-dark ${style.bio}`}>
-                        <p className={style.specifics}>
-                            {exhibitor.sponsor && (
-                                <span className={style.sponsor}>Sponsor</span>
-                            )}
-                            <span
-                                className={style.number}
-                            >{`Περίπτερο ${exhibitor.number}`}</span>
-                        </p>
-                        <div className={style.head}>
-                            <h1 className="fs-800">{exhibitor.name}</h1>
+                    <article className={`container ${style.body}`}>
+                        <p></p>
 
-                            {exhibitor.webAddress && (
-                                <Link href={`https://${exhibitor.webAddress}`}>
-                                    <a
-                                        className={style['web-address']}
-                                        target="_blank"
+                        <section className={`text-dark ${style.bio}`}>
+                            <p className={style.specifics}>
+                                {exhibitor.sponsor && (
+                                    <span className={style.sponsor}>
+                                        Sponsor
+                                    </span>
+                                )}
+                                <span
+                                    className={style.number}
+                                >{`Περίπτερο ${exhibitor.number}`}</span>
+                            </p>
+                            <div className={style.head}>
+                                <h1 className="fs-800">{exhibitor.name}</h1>
+
+                                {exhibitor.webAddress && (
+                                    <Link
+                                        href={`https://${exhibitor.webAddress}`}
                                     >
-                                        {exhibitor.webAddress}
+                                        <a
+                                            className={style['web-address']}
+                                            target="_blank"
+                                        >
+                                            {exhibitor.webAddress}
+                                        </a>
+                                    </Link>
+                                )}
+                            </div>
+
+                            {exhibitor.bio.map((paragraph, index) => (
+                                <p className="text-dark" key={index}>
+                                    {paragraph}
+                                </p>
+                            ))}
+                        </section>
+
+                        {exhibitor.products && (
+                            <section>
+                                <h2 className="fs-600 text-dark">
+                                    Best-seller Προϊόντα
+                                </h2>
+
+                                <ul>
+                                    {exhibitor.products.map(
+                                        (product, index) => (
+                                            <li key={index}>
+                                                <Product
+                                                    title={product.title}
+                                                    description={
+                                                        product.description
+                                                    }
+                                                    img={product.img}
+                                                />
+                                            </li>
+                                        )
+                                    )}
+                                </ul>
+                            </section>
+                        )}
+
+                        {exhibitor.links.length > 0 && (
+                            <section className={style['social-links']}>
+                                <h2 className="fs-600 text-dark">
+                                    Κάνε μας follow
+                                </h2>
+
+                                <ul>
+                                    {exhibitor.links.map((link) => (
+                                        <li key={link.type}>
+                                            <SocialLink {...link} />
+                                        </li>
+                                    ))}
+                                </ul>
+                            </section>
+                        )}
+
+                        {exhibitor.contact && (
+                            <section className={style.newsletter}>
+                                <Link href={exhibitor.contact}>
+                                    <a
+                                        target="_blank"
+                                        className={style['contact-btn']}
+                                    >
+                                        Γίνε μέλος του newsletter μας
                                     </a>
                                 </Link>
-                            )}
-                        </div>
-
-                        {exhibitor.bio.map((paragraph, index) => (
-                            <p className="text-dark" key={index}>
-                                {paragraph}
-                            </p>
-                        ))}
-                    </section>
-
-                    {exhibitor.products && (
-                        <section>
-                            <h2 className="fs-600 text-dark">
-                                Best-seller Προϊόντα
-                            </h2>
-
-                            <ul>
-                                {exhibitor.products.map((product, index) => (
-                                    <li key={index}>
-                                        <Product
-                                            title={product.title}
-                                            description={product.description}
-                                            img={product.img}
-                                        />
-                                    </li>
-                                ))}
-                            </ul>
-                        </section>
-                    )}
-
-                    {exhibitor.links.length > 0 && (
-                        <section className={style['social-links']}>
-                            <h2 className="fs-600 text-dark">
-                                Κάνε μας follow
-                            </h2>
-
-                            <ul>
-                                {exhibitor.links.map((link) => (
-                                    <li key={link.type}>
-                                        <SocialLink {...link} />
-                                    </li>
-                                ))}
-                            </ul>
-                        </section>
-                    )}
-
-                    {exhibitor.contact && (
-                        <section className={style.newsletter}>
-                            <Link href={exhibitor.contact}>
-                                <a
-                                    target="_blank"
-                                    className={style['contact-btn']}
-                                >
-                                    Γίνε μέλος του newsletter μας
-                                </a>
-                            </Link>
-                        </section>
-                    )}
-                </article>
+                            </section>
+                        )}
+                    </article>
+                </div>
             </div>
-        </BasicLayout>
+
+            <Footer />
+        </PlainLayout>
     );
 };
 

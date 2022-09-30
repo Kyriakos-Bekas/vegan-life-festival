@@ -1,15 +1,15 @@
 import Footer from '@/components/Footer/Footer';
 import Navigation from '@/components/Navigation/Navigation';
 import PlainLayout from '../PlainLayout/PlainLayout';
-import styles from './BasicLayout.module.scss';
+import style from './BasicLayout.module.scss';
 
 const BasicLayout = ({ children }) => {
     return (
         <PlainLayout>
-            <div className={styles.layout}>
+            <div className={style.layout}>
                 <Navigation />
 
-                <div className={styles.content}>{children}</div>
+                <div className={style.content}>{children}</div>
 
                 <Footer />
             </div>

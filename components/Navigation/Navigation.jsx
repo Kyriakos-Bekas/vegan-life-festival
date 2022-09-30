@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRef } from 'react';
 import style from './Navigation.module.scss';
 
-const Navigation = () => {
+const Navigation = ({ slug = null }) => {
     const { locale } = useLocaleContext();
 
     const { navLinks: navLinksEN } = text.en;
@@ -172,7 +172,11 @@ const Navigation = () => {
             <div className={style.locale}>
                 <Link
                     href={
-                        locale === 'gr'
+                        slug
+                            ? locale === 'gr'
+                                ? `/en/veganlifefestival2022/${slug}`
+                                : `/veganlifefestival2022/${slug}`
+                            : locale === 'gr'
                             ? '/en/veganlifefestival2022'
                             : '/veganlifefestival2022'
                     }
