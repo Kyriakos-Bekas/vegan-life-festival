@@ -72,7 +72,12 @@ export const gr = {
         locations: [
             {
                 name: 'Προαύλιο',
-                features: ['Περίπτερα  201-283', 'GOLD 1-9', 'Χώρος DJ'],
+                features: [
+                    'Περίπτερα  201-283',
+                    'MEGA',
+                    'GOLD 1-9',
+                    'Χώρος DJ',
+                ],
                 img: {
                     src: '/locations/area-1.jpg',
                     alt: 'Χάρτης Προαυλίου',

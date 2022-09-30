@@ -70,7 +70,7 @@ export const en = {
         locations: [
             {
                 name: 'Front Yard',
-                features: ['Benches 201-283', 'GOLD 1-9', 'DJ Booth'],
+                features: ['Benches 201-283', 'MEGA', 'GOLD 1-9', 'DJ Booth'],
                 img: {
                     src: '/locations/area-1.jpg',
                     alt: 'Front Yard Map',

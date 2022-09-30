@@ -162,7 +162,7 @@ export const exhibitors = {
             contact: 'https://www.facebook.com/athensveganburgers/',
         },
         {
-            name: 'Terranova',
+            name: 'Terranova Nutrition',
             number: 'GOLD 1',
             sponsor: true,
             slug: 'terranova',
@@ -549,7 +549,7 @@ export const exhibitors = {
             contact: 'https://www.facebook.com/athensveganburgers/',
         },
         {
-            name: 'Terranova',
+            name: 'Terranova Nutrition',
             number: 'GOLD 1',
             sponsor: true,
             slug: 'terranova',
@@ -775,9 +775,444 @@ export const exhibitors = {
             contact: 'https://bio-logos.com/epikoinonia',
         },
         // Not Sponsors
+        // Μηχανουργείο
+        {
+            name: 'Γαϊδουροχώρα: Το ελληνικό κέντρο για το γαϊδούρι',
+            number: '114',
+        },
+        {
+            name: 'Greek Eco Project',
+            number: '115',
+        },
+        {
+            name: 'Humanity Greece',
+            number: '116',
+        },
+        {
+            name: 'Elise Made it',
+            number: '118',
+        },
+        {
+            name: 'Enya Project',
+            number: '119',
+        },
+        {
+            name: 'Melissafarm',
+            number: '120',
+        },
+        {
+            name: 'fellos.gr About cork',
+            number: '121',
+        },
+        {
+            name: 'Mary Karpetas Art',
+            number: '122',
+        },
+        {
+            name: 'Certify Vegan',
+            number: '123-124',
+        },
+        {
+            name: 'Alma Libre',
+            number: '125',
+        },
+        {
+            name: 'Vintage piece for peace',
+            number: '126',
+        },
         {
             name: 'NARD - National Animal Rights Day',
             number: '127',
+        },
+        {
+            name: 'Ms Butter',
+            number: '128',
+        },
+        {
+            name: 'A promise to animals',
+            number: '129',
+        },
+        {
+            name: 'Ichnos Soap',
+            number: '130',
+        },
+        {
+            name: 'No Harm Charm',
+            number: '131',
+        },
+        {
+            name: 'Ζω.Ε.Σ',
+            number: '132',
+        },
+        {
+            name: 'Virgin Cosmetics',
+            number: '133',
+        },
+        {
+            name: 'Naturfeel',
+            number: '134',
+        },
+        {
+            name: 'Aroma Selena',
+            number: '136',
+        },
+        {
+            name: 'Vegan Gecko',
+            number: '137-138',
+        },
+        {
+            name: 'Lavera',
+            number: '140-141',
+        },
+        {
+            name: 'Primavera',
+            number: '142-143',
+        },
+        {
+            name: 'Vivolife',
+            number: '144',
+        },
+        {
+            name: 'Bacana',
+            number: '145',
+        },
+        {
+            name: 'Hubits',
+            number: '146',
+        },
+        {
+            name: 'ΙΕΚ ΣΒΙΕ',
+            number: '147-148',
+        },
+        {
+            name: "Elen's secret",
+            number: '149',
+        },
+        {
+            name: 'Κόμμα για τα Ζώα',
+            number: '150',
+        },
+        {
+            name: 'My Eco pharmacy',
+            number: '151',
+        },
+        {
+            name: 'Σκέφτομαι και ράβω',
+            number: '152',
+        },
+        {
+            name: 'WeFit',
+            number: '153',
+        },
+        {
+            name: 'Life Roots',
+            number: '154',
+        },
+        {
+            name: 'Oratia',
+            number: '155',
+        },
+        {
+            name: 'Vegan Carousel',
+            number: '156',
+        },
+        {
+            name: 'Wasteless design',
+            number: '157',
+        },
+        // Προαύλιο
+        {
+            name: 'Pizza fan',
+            number: '203-204',
+        },
+        {
+            name: 'Βιολογικά προϊόντα ρυζιού',
+            number: '205',
+        },
+        {
+            name: 'Σαπούνια Σπουργίτι',
+            number: '206',
+        },
+        {
+            name: 'Ertha',
+            number: '207-208',
+        },
+        {
+            name: 'Ecogaia',
+            number: '209-210',
+        },
+        {
+            name: 'GoutzaniNut',
+            number: '211-212',
+        },
+        {
+            name: 'Plastikourgeio',
+            number: '213',
+        },
+        {
+            name: 'Αγρόκτημα Δρόσου',
+            number: '214',
+        },
+        {
+            name: 'Boobam',
+            number: '215',
+        },
+        {
+            name: 'Greek Vegan Magazine',
+            number: '216',
+        },
+        {
+            name: 'ΠΦΠΟ - Πανελλήνια Φιλοζωϊκή Περιβαλλοντική Ομοσπονδία',
+            number: '217',
+        },
+        {
+            name: 'Γνήσιες Γεύσεις',
+            number: '218-219',
+        },
+        {
+            name: 'Kannabio',
+            number: '220',
+        },
+        {
+            name: 'Pyrrha',
+            number: '221',
+        },
+        {
+            name: 'Momo Asian Bar',
+            number: '222-223',
+        },
+        {
+            name: 'Καρυοθραύστης',
+            number: '224',
+        },
+        {
+            name: 'ΙΕΚ Grand Foyer',
+            number: '225',
+        },
+        {
+            name: 'Plan(e)t Foods',
+            number: '228-229',
+        },
+        {
+            name: 'Troo Food Liberation',
+            number: '230-231',
+        },
+        {
+            name: 'The Nutlers',
+            number: '232-233',
+        },
+        {
+            name: 'Peace by Peas',
+            number: '234-235',
+        },
+        {
+            name: 'Spirulina supreme',
+            number: '236-237',
+        },
+        {
+            name: 'Τσίτσιρι Kombucha',
+            number: '238-239',
+        },
+        {
+            name: 'Mighty Kitchen',
+            number: '240-241',
+        },
+        {
+            name: 'Royal Curry',
+            number: '242-243',
+        },
+        {
+            name: 'Full spoon',
+            number: '244-245',
+        },
+        {
+            name: 'Vegan Home',
+            number: '246-247',
+        },
+        {
+            name: 'Οικογένεια Δασκαλάκη',
+            number: '248-249',
+        },
+        {
+            name: 'The Superdrinks',
+            number: '250-251',
+        },
+        {
+            name: 'Little Bear Patisserie',
+            number: '252-253',
+        },
+        {
+            name: "Vego / Fry's",
+            number: '254-255',
+        },
+        {
+            name: 'Pretty Greens',
+            number: '256-257',
+        },
+        {
+            name: 'BeMyFlower',
+            number: '258-259',
+        },
+        {
+            name: 'W7 - Very Vegan',
+            number: '260',
+        },
+        {
+            name: 'Vegan Gini',
+            number: '261',
+        },
+        {
+            name: 'New Cult',
+            number: '262-265',
+        },
+        {
+            name: 'Kakau Worship',
+            number: '266-267',
+        },
+        {
+            name: 'Lelex tea',
+            number: '268-269',
+        },
+        {
+            name: 'Etico',
+            number: '270-271',
+        },
+        {
+            name: 'Mono Bio',
+            number: '272-273',
+        },
+        {
+            name: 'Bamboomaki',
+            number: '274-275',
+        },
+        {
+            name: 'Weird Vegan Couple',
+            number: '276-277',
+        },
+        {
+            name: 'Olympic Terra',
+            number: '276α',
+        },
+        {
+            name: 'Soap Up Project',
+            number: '277β',
+        },
+        {
+            name: 'Δίκτυο Ελληνικής Σπιρουλίνας',
+            number: '278-279',
+        },
+        {
+            name: 'Pasta Βookis',
+            number: '280',
+        },
+        {
+            name: 'Nutree',
+            number: '281',
+        },
+        {
+            name: 'V for Vegan',
+            number: '282-283',
+        },
+        {
+            name: 'Vegan Life Festival',
+            number: 'MEGA',
+        },
+        {
+            name: 'Crudo',
+            number: 'GOLD 2',
+        },
+        {
+            name: 'Τσιφλίκι',
+            number: 'GOLD 6',
+        },
+        {
+            name: 'Ok Vegan - TÜV AUSTRIA Hellas',
+            number: 'GOLD 7',
+        },
+        // Πίσω Αυλή
+        {
+            name: "Eva's nature",
+            number: '304-305',
+        },
+        {
+            name: "Kalliope's Botanicals",
+            number: '306-307',
+        },
+        {
+            name: 'Λάδι δράκου',
+            number: '308-309',
+        },
+        {
+            name: 'Κτήμα Γη και Υγεία',
+            number: '311-312',
+        },
+        {
+            name: 'Fighouse',
+            number: '313',
+        },
+        {
+            name: 'Vegan Village Shelter',
+            number: '314',
+        },
+        {
+            name: 'Ανταλλακτικό Bazaar Ρούχων Vegan Life Festival',
+            number: '315',
+        },
+        {
+            name: 'Fabric Republic',
+            number: '316',
+        },
+        {
+            name: 'Plus2feet',
+            number: '317-318',
+        },
+        {
+            name: 'Doggybag Crew',
+            number: '319-320',
+        },
+        {
+            name: 'Natuevo',
+            number: '321-322',
+        },
+        {
+            name: 'Vegaia',
+            number: '323',
+        },
+        {
+            name: 'Animal Save',
+            number: '324',
+        },
+        {
+            name: 'Creating Jewelry',
+            number: '325',
+        },
+        {
+            name: 'Αγρός Φυσικής & Οργανικής Καλλιέργειας "Αξιόκερσα"',
+            number: '326',
+        },
+        {
+            name: 'Just Vegan',
+            number: '328',
+        },
+        {
+            name: 'Bean Witched',
+            number: '329',
+        },
+        {
+            name: 'Step Now',
+            number: '330',
+        },
+        {
+            name: 'Pet shop Κανέλλης',
+            number: '331',
+        },
+        {
+            name: 'Γαρδίκι Παραδοσιακά προϊόντα',
+            number: '332-333',
+        },
+        {
+            name: 'Εργαστήρια Vegan Life Festival',
+            number: '334-342',
         },
     ],
 };
