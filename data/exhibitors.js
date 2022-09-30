@@ -239,10 +239,10 @@ export const exhibitors = {
             contact: 'https://www.facebook.com/holyllamacreativebaking/',
         },
         {
-            name: 'Mega Meetless',
+            name: 'Mega Meatless',
             number: 27,
             sponsor: true,
-            slug: 'mega-meetless',
+            slug: 'mega-meatless',
             webAddress: 'megasyeeros.gr/en/meatless',
             bio: [
                 'The new mega meatless series introduces us to the world of "alternative" meat. A world that promotes healthy eating, proposes new eating habits, respects natural resources and the environment by creating favorite dishes in a completely new, healthy and above all innovative way.',
@@ -633,10 +633,10 @@ export const exhibitors = {
             contact: 'https://www.facebook.com/holyllamacreativebaking/',
         },
         {
-            name: 'Mega Meetless',
+            name: 'Mega Meatless',
             number: 27,
             sponsor: true,
-            slug: 'mega-meetless',
+            slug: 'mega-meatless',
             webAddress: 'megasyeeros.gr/meatless/',
             bio: [
                 'H νέα σειρά mega meatless μας μυεί στο κόσμο του «εναλλακτικού» κρέατος. Ένα κόσμο που προάγει την healthy διατροφή, προτείνει καινούργιες διατροφικές συνήθειες, σέβεται τους φυσικούς πόρους και το περιβάλλον δημιουργώντας αγαπημένα πιάτα με έναν εντελώς νέο, υγιεινό και κυρίως καινοτόμο τρόπο.',

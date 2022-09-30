@@ -38,7 +38,7 @@ export const sponsors = [
     {
         name: 'Mega Meatless',
         prime: true,
-        img: '/sponsors/1.png',
+        img: '/sponsors/mega-meatless.png',
         link: 'mega-meetless',
     },
     {
@@ -48,12 +48,12 @@ export const sponsors = [
     },
     {
         name: 'Amino Animo',
-        img: '/sponsors/1.png',
+        img: '/sponsors/amino-animo.png',
         link: 'amino-animo',
     },
     {
         name: 'Βιο-λόγος Organic',
-        img: '/sponsors/1.png',
+        img: '/sponsors/bio-logos.png',
         link: 'bio-logos',
     },
 ];

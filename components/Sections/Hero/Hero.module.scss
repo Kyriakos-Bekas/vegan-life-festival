@@ -9,6 +9,11 @@
     align-items: center;
     justify-content: center;
 
+    & > svg {
+        min-width: 2rem;
+        min-height: 2rem;
+    }
+
     & > h1 {
         margin-top: 0.75rem;
         display: flex;
