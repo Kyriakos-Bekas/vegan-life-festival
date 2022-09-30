@@ -94,13 +94,18 @@ const Footer = () => {
                 <section className={styles.section}>
                     <ul>
                         <li>
-                            <Link href="#">
-                                <a>Vegan Life Festival</a>
+                            <Link href="https://el.veganlife.gr">
+                                <a target="_blank">Vegan Life Festival</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="https://www.wikodid.com/">
                                 <a target="_blank">Wikodid</a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/">
+                                <a>Terms of Services</a>
                             </Link>
                         </li>
                     </ul>

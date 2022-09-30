@@ -1,3 +1,4 @@
+import { termsOfServices } from '@/data/terms-of-services';
 import style from '@/styles/pages/LandingPage.module.scss';
 import Head from 'next/head';
 
@@ -126,21 +127,32 @@ const Home = () => {
                 </header>
 
                 <main>
-                    <h1>Qanibal GR</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Iure tempora tenetur, recusandae officia porro rem saepe
-                        enim ea architecto, harum vero maxime ab aliquid.
-                    </p>
+                    <article className={style.tos}>
+                        <h1>{termsOfServices.title}</h1>
 
-                    <section>
-                        <h2>Πολιτική Απορρήτου</h2>
+                        {termsOfServices.description.map((paragraph, index) => (
+                            <p key={index}>{paragraph}</p>
+                        ))}
 
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Temporibus sunt dolore autem.
-                        </p>
-                    </section>
+                        {termsOfServices.list.map((term, index) => (
+                            <section key={index}>
+                                <h2 className="fs-600">{term.title}</h2>
+
+                                {term.description.map((paragraph, index) => (
+                                    <p key={index}>{paragraph}</p>
+                                ))}
+
+                                {term.list.length > 0 && (
+                                    <ul className={style.list}>
+                                        {' '}
+                                        {term.list.map((item, index) => (
+                                            <li key={index}>{item}</li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </section>
+                        ))}
+                    </article>
                 </main>
             </div>
         </>

@@ -21,4 +21,18 @@
             margin-top: 0.5rem;
         }
     }
+
+    .tos {
+        .list {
+            list-style: none;
+            padding-inline-start: 0;
+            margin-block: 0;
+            margin-inline: 0;
+            margin-top: 0.5rem;
+
+            li {
+                margin-block: 0.5rem;
+            }
+        }
+    }
 }
