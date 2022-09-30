@@ -7,11 +7,11 @@ import { workshops } from './workshops';
 export const en = {
     navLinks: [
         'home',
-        'activities',
         'sponsors',
         'newsletter',
         'speeches',
         'workshops',
+        'children activities',
         'map',
         'exhibitors',
         'transport',
@@ -39,7 +39,7 @@ export const en = {
             'Want to stay up to date with our news?',
             "Subscribe to our newsletter and we'll keep you posted!",
         ],
-        link: '#',
+        link: 'https://el.veganlife.gr/contact#comp-kktn8xi2',
     },
     sponsors: {
         title: 'Sponsors',
@@ -69,27 +69,27 @@ export const en = {
             "Discover all the festival's locations and find your way through the map!",
         locations: [
             {
-                name: 'Exhibition Avenue 1',
-                features: ['Exhibitors 1-80', 'Cooking Workshop'],
+                name: 'Front Yard',
+                features: ['Benches 201-283', 'GOLD 1-9', 'DJ Booth'],
                 img: {
                     src: '/locations/area-1.jpg',
-                    alt: 'Exhibition Avenue 1 Map',
+                    alt: 'Front Yard Map',
                 },
             },
             {
-                name: 'Exhibition Avenue 2',
-                features: ['Exhibitors 81-120', 'Playground'],
+                name: 'Michanourgio',
+                features: ['Benches 114-157'],
                 img: {
                     src: '/locations/area-2.jpg',
-                    alt: 'Exhibition Avenue 2 Map',
+                    alt: 'Michanourgio Map',
                 },
             },
             {
-                name: 'Exhibition Avenue 3',
-                features: ['Exhibitors 121-210', 'Live DJ Set'],
+                name: 'Back Yard',
+                features: ['Benches 304-342', 'Speech Auditorium'],
                 img: {
                     src: '/locations/area-3.jpg',
-                    alt: 'Exhibition Avenue 3 Map',
+                    alt: 'Back Yard Map',
                 },
             },
         ],
@@ -106,13 +106,27 @@ export const en = {
         transportMethods: [
             {
                 name: 'Subway',
+                description: 'Line 3',
                 img: '/logos/metro.png',
-                link: '#',
+                link: 'https://www.google.gr/maps/place/Kerameikos/@37.9777903,23.7095874,17z/data=!4m12!1m6!3m5!1s0x14a1bcdf88978a8b:0x198e1f6bb95c46b4!2sTechnopolis+City+of+Athens!8m2!3d37.9777776!4d23.7136161!3m4!1s0x14a1bcde46c9d1f5:0x196d5e5c3ed95d76!8m2!3d37.97863!4d23.7114956?hl=en&authuser=0',
             },
             {
                 name: 'City Bus',
+                description: 'Photaerio',
                 img: '/logos/bus.png',
-                link: '#',
+                link: 'https://www.google.gr/maps/place/Ph%C5%8Dtaerio/@37.9777903,23.7095874,17z/data=!4m12!1m6!3m5!1s0x14a1bcdf88978a8b:0x198e1f6bb95c46b4!2sTechnopolis+City+of+Athens!8m2!3d37.9777776!4d23.7136161!3m4!1s0x14a1bcdfd5b00099:0xb5813dfd04f09946!8m2!3d37.9770748!4d23.713095?hl=en&authuser=0',
+            },
+            {
+                name: 'City Bus',
+                description: 'Palaia Agora, Peiraios',
+                img: '/logos/bus.png',
+                link: 'https://www.google.gr/maps/place/%CE%A0%CE%91%CE%9B%CE%91%CE%99%CE%91+%CE%91%CE%93%CE%9F%CE%A1%CE%91/@37.9777903,23.7095874,17z/data=!4m12!1m6!3m5!1s0x14a1bcdf88978a8b:0x198e1f6bb95c46b4!2sTechnopolis+City+of+Athens!8m2!3d37.9777776!4d23.7136161!3m4!1s0x14a1bcdf88a5e3e7:0x9b540a48493c4508!8m2!3d37.9781077!4d23.7152644?hl=en&authuser=0',
+            },
+            {
+                name: 'City Bus',
+                description: 'Palaia Agora, Iera Odos',
+                img: '/logos/bus.png',
+                link: 'https://www.google.gr/maps/place/%CE%A0%CE%91%CE%9B%CE%91%CE%99%CE%91+%CE%91%CE%93%CE%9F%CE%A1%CE%91/@37.9777903,23.7095874,17z/data=!4m12!1m6!3m5!1s0x14a1bcdf88978a8b:0x198e1f6bb95c46b4!2sTechnopolis+City+of+Athens!8m2!3d37.9777776!4d23.7136161!3m4!1s0x14a1bcdf7a55c625:0x92c61cf1107e6368!8m2!3d37.9796016!4d23.7146614?hl=en&authuser=0',
             },
         ],
     },

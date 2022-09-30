@@ -5,7 +5,7 @@ const Product = ({ title, description, img }) => {
         <article className={style.product}>
             <div className={`text-dark ${style.details}`}>
                 <h1 className="fs-500">{title}</h1>
-                <p className="fs-300">{description}</p>
+                {description && <p className="fs-300">{description}</p>}
             </div>
 
             {img && (

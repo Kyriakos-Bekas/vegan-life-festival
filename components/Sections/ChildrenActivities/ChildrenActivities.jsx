@@ -28,7 +28,7 @@ const ChildrenActivities = () => {
     );
 
     return (
-        <section className="section" id="children-activities">
+        <section className="section" id="children activities">
             <div className="details">
                 <h1>{title}</h1>
                 <p>{description}</p>

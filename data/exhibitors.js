@@ -2,7 +2,7 @@ export const exhibitors = {
     en: [
         {
             name: 'Violife',
-            number: 13,
+            number: 'GOLD 4',
             sponsor: true,
             slug: 'violife',
             webAddress: 'violifefoods.com',
@@ -43,7 +43,7 @@ export const exhibitors = {
         },
         {
             name: 'Beyond Meat',
-            number: 31,
+            number: 'GOLD 9',
             sponsor: true,
             slug: 'beyond-meat',
             webAddress: 'foodelco.gr/beyond-meat-profile',
@@ -84,7 +84,7 @@ export const exhibitors = {
         },
         {
             name: 'Biologiko Xorio',
-            number: 102,
+            number: 'GOLD 2',
             sponsor: true,
             slug: 'biologiko-xorio',
             webAddress: 'biologikoxorio.gr',
@@ -124,7 +124,7 @@ export const exhibitors = {
         },
         {
             name: 'Athens Vegan Burgers',
-            number: 76,
+            number: 'GOLD 9',
             sponsor: true,
             slug: 'athens-vegan-burgers',
             bio: [
@@ -163,7 +163,7 @@ export const exhibitors = {
         },
         {
             name: 'Terranova',
-            number: 43,
+            number: 'GOLD 1',
             sponsor: true,
             slug: 'terranova',
             webAddress: 'bionat.gr/en',
@@ -203,7 +203,7 @@ export const exhibitors = {
         },
         {
             name: 'Holy Llama',
-            number: 20,
+            number: 'GOLD 3',
             sponsor: true,
             slug: 'holy-llama',
             bio: ['Creative baking'],
@@ -240,7 +240,7 @@ export const exhibitors = {
         },
         {
             name: 'Mega Meatless',
-            number: 27,
+            number: 'GOLD 5',
             sponsor: true,
             slug: 'mega-meatless',
             webAddress: 'megasyeeros.gr/en/meatless',
@@ -280,7 +280,7 @@ export const exhibitors = {
         },
         {
             name: 'Βιοαγρός',
-            number: 26,
+            number: 'GOLD 8',
             sponsor: true,
             slug: 'bioagros',
             webAddress: 'bioagros.gr/en',
@@ -320,7 +320,7 @@ export const exhibitors = {
         },
         {
             name: 'Amino Animo',
-            number: 52,
+            number: '226-227',
             sponsor: true,
             slug: 'amino-animo',
             webAddress: 'aminoanimo.com/?lang=en',
@@ -329,21 +329,16 @@ export const exhibitors = {
             ],
             products: [
                 {
-                    title: 'Oregano 30 gr.',
-                    description:
-                        'The herb that accompanies most Greek and Mediterranean dishes and salads, known since antiquity',
-                    img: 'ipethros-product-1.png',
+                    title: 'Muscle Synthesis',
+                    // description:
+                    //     'The herb that accompanies most Greek and Mediterranean dishes and salads, known since antiquity',
+                    img: 'amino-animo-product-1.png',
                 },
                 {
-                    title: 'Thyme 30 gr.',
-                    description:
-                        'The favorite herb of Hippocrates for its antioxidant, antibacterial and antiseptic properties',
-                },
-                {
-                    title: 'Mountain Tea 20 gr.',
-                    description:
-                        'Mountain tea is one of the most beloved and widespread herbs of Greek nature, which is consumed for centuries as a decoction',
-                    img: 'ipethros-product-1.png',
+                    title: 'Power Mix',
+                    // description:
+                    //     'Mountain tea is one of the most beloved and widespread herbs of Greek nature, which is consumed for centuries as a decoction',
+                    img: 'amino-animo-product-2.png',
                 },
             ],
             links: [
@@ -356,7 +351,7 @@ export const exhibitors = {
         },
         {
             name: 'Βιο-λόγος Organic',
-            number: 95,
+            number: '201-202',
             sponsor: true,
             slug: 'bio-logos',
             webAddress: 'bio-logos.com/en',
@@ -390,7 +385,7 @@ export const exhibitors = {
     gr: [
         {
             name: 'Violife',
-            number: 13,
+            number: 'GOLD 4',
             sponsor: true,
             slug: 'violife',
             webAddress: 'violifefoods.com/el',
@@ -432,7 +427,7 @@ export const exhibitors = {
         },
         {
             name: 'Beyond Meat',
-            number: 31,
+            number: 'GOLD 9',
             sponsor: true,
             slug: 'beyond-meat',
             webAddress: 'foodelco.gr/beyond-meat-profile',
@@ -474,7 +469,7 @@ export const exhibitors = {
         },
         {
             name: 'Βιολογικό Χωριό',
-            number: 102,
+            number: 'GOLD 2',
             sponsor: true,
             slug: 'biologiko-xorio',
             webAddress: 'biologikoxorio.gr',
@@ -515,7 +510,7 @@ export const exhibitors = {
         },
         {
             name: 'Athens Vegan Burgers',
-            number: 76,
+            number: 'GOLD 9',
             sponsor: true,
             slug: 'athens-vegan-burgers',
             bio: [
@@ -555,7 +550,7 @@ export const exhibitors = {
         },
         {
             name: 'Terranova',
-            number: 43,
+            number: 'GOLD 1',
             sponsor: true,
             slug: 'terranova',
             webAddress: 'bionat.gr/el/terranova',
@@ -596,7 +591,7 @@ export const exhibitors = {
         },
         {
             name: 'Holy Llama',
-            number: 20,
+            number: 'GOLD 3',
             sponsor: true,
             slug: 'holy-llama',
             bio: ['Creative baking'],
@@ -634,7 +629,7 @@ export const exhibitors = {
         },
         {
             name: 'Mega Meatless',
-            number: 27,
+            number: 'GOLD 5',
             sponsor: true,
             slug: 'mega-meatless',
             webAddress: 'megasyeeros.gr/meatless/',
@@ -675,7 +670,7 @@ export const exhibitors = {
         },
         {
             name: 'Βιοαγρός',
-            number: 26,
+            number: 'GOLD 8',
             sponsor: true,
             slug: 'bioagros',
             webAddress: 'bioagros.gr/en',
@@ -716,7 +711,7 @@ export const exhibitors = {
         },
         {
             name: 'Amino Animo',
-            number: 52,
+            number: '226-227',
             sponsor: true,
             slug: 'amino-animo',
             webAddress: 'aminoanimo.com',
@@ -725,22 +720,16 @@ export const exhibitors = {
             ],
             products: [
                 {
-                    title: 'Ρίγανη 30 γρ.',
-                    description:
-                        'Το βότανο που συνοδεύει τα περισσότερα ελληνικά και μεσογειακά πιάτα και σαλάτες, γνωστό από την αρχαιότητα',
-                    img: 'ipethros-product-1.png',
+                    title: 'Muscle Synthesis',
+                    // description:
+                    //     'The herb that accompanies most Greek and Mediterranean dishes and salads, known since antiquity',
+                    img: 'amino-animo-product-1.png',
                 },
                 {
-                    title: 'Θυμάρι 30 γρ.',
-                    description:
-                        'Το αγαπημένο βοτάνι του Ιπποκράτη για τις αντιοξειδωτικές, αντιβακτηριδιακές και αντισηπτικές ιδιότητές του',
-                    img: 'ipethros-product-1.png',
-                },
-                {
-                    title: 'Τσάι 20 γρ.',
-                    description:
-                        'Το τσάι του βουνού είναι ένα από τα πιο αγαπητά και διαδεδομένα βότανα της ελληνικής υπαίθρου, που καταναλώνεται εδώ και αιώνες ως αφέψημα',
-                    img: 'ipethros-product-1.png',
+                    title: 'Power Mix',
+                    // description:
+                    //     'Mountain tea is one of the most beloved and widespread herbs of Greek nature, which is consumed for centuries as a decoction',
+                    img: 'amino-animo-product-2.png',
                 },
             ],
             links: [
@@ -754,7 +743,7 @@ export const exhibitors = {
         },
         {
             name: 'Βιο-λόγος Organic',
-            number: 95,
+            number: '201-202',
             sponsor: true,
             slug: 'bio-logos',
             webAddress: 'bio-logos.com',

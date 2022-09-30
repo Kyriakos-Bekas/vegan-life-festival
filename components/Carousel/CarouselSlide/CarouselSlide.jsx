@@ -14,7 +14,7 @@ const CarouselSlide = ({ slide, type, locale }) => {
                     : ''
             }
         >
-            {slide.img?.src !== '/workshops/' && (
+            {slide.img?.src !== '' && (
                 <img
                     src={slide.img.src}
                     alt={slide.img.alt}
