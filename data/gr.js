@@ -109,9 +109,15 @@ export const gr = {
         transportMethods: [
             {
                 name: 'Μετρό',
-                description: 'Γραμμή 3',
+                description: 'Γραμμή 3, Κεραμεικός',
                 img: '/logos/metro.png',
                 link: 'https://www.google.gr/maps/place/Kerameikos/@37.9777903,23.7095874,17z/data=!4m12!1m6!3m5!1s0x14a1bcdf88978a8b:0x198e1f6bb95c46b4!2sTechnopolis+City+of+Athens!8m2!3d37.9777776!4d23.7136161!3m4!1s0x14a1bcde46c9d1f5:0x196d5e5c3ed95d76!8m2!3d37.97863!4d23.7114956?hl=en&authuser=0',
+            },
+            {
+                name: 'Μετρό',
+                description: 'Γραμμή 1, Θησείο',
+                img: '/logos/metro.png',
+                link: 'https://goo.gl/maps/pTWEFe898Av4h5Zu6https://www.google.com/maps/place/%CE%98%CE%B7%CF%83%CE%B5%CE%AF%CE%BF/@37.9782185,23.7150687,17z/data=!4m21!1m15!4m14!1m6!1m2!1s0x14a1bcdf88978a8b:0x198e1f6bb95c46b4!2zzqTOtc-Hzr3PjM-Azr_Ou865z4IsIM6RzrjOrs69zrE!2m2!1d23.7136161!2d37.9777776!1m6!1m2!1s0x14a1bd219380f125:0x4ed75d14aa1b1a2c!2zzpjOt8-DzrXOr86_LCDOkc64zq7Ovc6xIDExOCA1MQ!2m2!1d23.7207061!2d37.9767093!3m4!1s0x14a1bd219380f125:0x4ed75d14aa1b1a2c!8m2!3d37.9767093!4d23.7207061',
             },
             {
                 name: 'Λεωφορείο',
