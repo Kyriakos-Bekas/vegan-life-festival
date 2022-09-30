@@ -1,20 +1,18 @@
 import Product from '@/components/Product/Product';
 import SocialLink from '@/components/SocialLink/SocialLink';
 import { text } from '@/data/data';
-// import { exhibitors } from '@/data/exhibitors';
+import { exhibitors } from '@/data/exhibitors';
 import BasicLayout from '@/layouts/BasicLayout/BasicLayout';
 import style from '@/styles/pages/PersonalPage.module.scss';
 import Head from 'next/head';
 import Link from 'next/link';
 
 export async function getStaticPaths() {
-    // const paths = exhibitors.en
-    //     .filter((exhibitor) => exhibitor.slug)
-    //     .map((exhibitor) => ({
-    //         params: { slug: exhibitor.slug },
-    //     }));
-
-    const paths = [{ params: { slug: 'amino-animo' } }];
+    const paths = exhibitors.en
+        .filter((exhibitor) => exhibitor.slug)
+        .map((exhibitor) => ({
+            params: { slug: exhibitor.slug },
+        }));
 
     return { paths, fallback: false };
 }
@@ -42,6 +40,11 @@ const PersonalPage = ({ slug }) => {
                         className={style.banner}
                         src={`/banners/${slug}-banner.png`}
                         alt={`${exhibitor.name} Banner`}
+                        style={{
+                            objectFit: `${
+                                slug === 'amino-animo' ? 'cover' : 'contain'
+                            }`,
+                        }}
                     />
                 </header>
 
