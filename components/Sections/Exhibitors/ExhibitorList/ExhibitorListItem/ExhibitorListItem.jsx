@@ -15,7 +15,9 @@ const ExhibitorListItem = ({ exhibitor }) => {
                         locale === 'en' ? '/en' : ''
                     }/veganlifefestival2022/${slug}`}
                 >
-                    <a>
+                    <a
+                        className={`umami--click--visit-${slug}-page-exhibitor-list`}
+                    >
                         <article>
                             {sponsor && <StarIcon />}
 

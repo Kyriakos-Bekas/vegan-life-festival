@@ -20,7 +20,10 @@ const ExhibitorList = ({ exhibitors }) => {
     return (
         <div className={`${style.list} ${collapsed ? style.collapsed : ''}`}>
             <div className={style.head}>
-                <div onClick={() => setCollapsed((prev) => !prev)}>
+                <div
+                    onClick={() => setCollapsed((prev) => !prev)}
+                    className="umami--click--use-exhibitor-list"
+                >
                     <h3 className="fs-400 text-dark">{text}</h3>
                     <DownIcon />
                 </div>

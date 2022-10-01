@@ -7,7 +7,7 @@ import {
 } from '../Icons/Icons';
 import style from './SocialLink.module.scss';
 
-const SocialLink = ({ href, type }) => {
+const SocialLink = ({ href, type, slug }) => {
     let icon;
 
     switch (type) {
@@ -26,7 +26,10 @@ const SocialLink = ({ href, type }) => {
 
     return (
         <Link href={href}>
-            <a className={style.link} target="_blank">
+            <a
+                className={`${style.link} umami--click--visit-${slug}-${type}`}
+                target="_blank"
+            >
                 {icon}
             </a>
         </Link>

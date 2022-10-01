@@ -54,8 +54,6 @@ const PersonalPage = ({ slug }) => {
                     </header>
 
                     <article className={`container ${style.body}`}>
-                        <p></p>
-
                         <section className={`text-dark ${style.bio}`}>
                             <p className={style.specifics}>
                                 {exhibitor.sponsor && (
@@ -76,7 +74,7 @@ const PersonalPage = ({ slug }) => {
                                         href={`https://${exhibitor.webAddress}`}
                                     >
                                         <a
-                                            className={style['web-address']}
+                                            className={`${style['web-address']} umami--click--visit-${slug}-website`}
                                             target="_blank"
                                         >
                                             {exhibitor.webAddress}
@@ -123,7 +121,7 @@ const PersonalPage = ({ slug }) => {
                                 <ul>
                                     {exhibitor.links.map((link) => (
                                         <li key={link.type}>
-                                            <SocialLink {...link} />
+                                            <SocialLink {...link} slug={slug} />
                                         </li>
                                     ))}
                                 </ul>
@@ -135,7 +133,7 @@ const PersonalPage = ({ slug }) => {
                                 <Link href={exhibitor.contact}>
                                     <a
                                         target="_blank"
-                                        className={style['contact-btn']}
+                                        className={`${style['contact-btn']} umami--click--visit-${slug}-contact-form`}
                                     >
                                         Join our newsletter
                                     </a>

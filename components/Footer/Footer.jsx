@@ -95,12 +95,22 @@ const Footer = () => {
                     <ul>
                         <li>
                             <Link href="https://el.veganlife.gr">
-                                <a target="_blank">Vegan Life Festival</a>
+                                <a
+                                    target="_blank"
+                                    className="umami--click--visit-vegan-life-website"
+                                >
+                                    Vegan Life Festival
+                                </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="https://www.wikodid.com/">
-                                <a target="_blank">Wikodid</a>
+                                <a
+                                    target="_blank"
+                                    className="umami--click--visit-wikodid-website"
+                                >
+                                    Wikodid
+                                </a>
                             </Link>
                         </li>
                         <li>

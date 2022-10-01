@@ -15,10 +15,6 @@
     .logo {
         display: flex;
         align-items: center;
-
-        // img {
-        //     max-width: 140px;
-        // }
     }
 
     .section ul {
@@ -27,8 +23,13 @@
         list-style: none;
 
         li {
+            margin-block: 0.5rem;
             color: $clr-light;
             font-size: 0.9rem;
+
+            &:first-of-type {
+                margin-top: 0;
+            }
         }
     }
 

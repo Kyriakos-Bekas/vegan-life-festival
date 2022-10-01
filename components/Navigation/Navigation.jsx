@@ -124,7 +124,7 @@ const Navigation = ({ slug = null }) => {
                             <a
                                 target="_blank"
                                 rel="noopener"
-                                className={style['link-social']}
+                                className={`${style['link-social']} umami--click--visit-vegan-life-instagram`}
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -139,7 +139,7 @@ const Navigation = ({ slug = null }) => {
                             <a
                                 target="_blank"
                                 rel="noopener"
-                                className={style['link-social']}
+                                className={`${style['link-social']} umami--click--visit-vegan-life-facebook`}
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +154,7 @@ const Navigation = ({ slug = null }) => {
                             <a
                                 target="_blank"
                                 rel="noopener"
-                                className={style['link-social']}
+                                className={`${style['link-social']} umami--click--visit-vegan-life-twitter`}
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"

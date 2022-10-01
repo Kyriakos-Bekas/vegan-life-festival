@@ -12,7 +12,11 @@ const SingleSponsor = ({ name, prime = false, img, link }) => {
                 locale === 'en' ? '/en' : ''
             }/veganlifefestival2022/${link}`}
         >
-            <a className={`${style.sponsor} ${prime ? style.prime : ''}`}>
+            <a
+                className={`${style.sponsor} ${
+                    prime ? style.prime : ''
+                } umami--click--visit-${link}-page-sponsor`}
+            >
                 <article>
                     <Image
                         src={img}

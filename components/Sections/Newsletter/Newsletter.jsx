@@ -20,7 +20,7 @@ const Newsletter = () => {
             <div className={style.util}>
                 <Link href={link}>
                     <a
-                        className={`ff-giveaway ${style.subscribe}`}
+                        className={`ff-giveaway ${style.subscribe} umami--click--vegan-life-newsletter`}
                         target="_blank"
                     >
                         {locale === 'en' ? 'Subscribe' : 'Εγγραφή'}
