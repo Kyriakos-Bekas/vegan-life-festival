@@ -166,7 +166,7 @@ const sundayChildrenActivities = {
             sub: 'ages 4-104',
             description: 'Ελένη Γιαννοπούλου, Κοινότητα Μικρό Βουνό',
             img: {
-                src: '/children-activities/giannopoulou.png',
+                src: '/children-activities/giannopoulou-1.png',
                 alt: '',
             },
             duration: '17:00-17:45',
@@ -177,7 +177,7 @@ const sundayChildrenActivities = {
             sub: 'ages 6-106',
             description: 'Ελένη Γιαννοπούλου, Κοινότητα Μικρό Βουνό',
             img: {
-                src: '/children-activities/giannopoulou.png',
+                src: '/children-activities/giannopoulou-2.png',
                 alt: '',
             },
             duration: '17:45-18:30',
@@ -256,7 +256,7 @@ const sundayChildrenActivities = {
             sub: '4-104 ετων',
             description: 'Ελένη Γιαννοπούλου, Κοινότητα Μικρό Βουνό',
             img: {
-                src: '/children-activities/giannopoulou.png',
+                src: '/children-activities/giannopoulou-1.png',
                 alt: '',
             },
             duration: '17:00-17:45',
@@ -267,7 +267,7 @@ const sundayChildrenActivities = {
             sub: '6-106 ετων',
             description: 'Ελένη Γιαννοπούλου, Κοινότητα Μικρό Βουνό',
             img: {
-                src: '/children-activities/giannopoulou.png',
+                src: '/children-activities/giannopoulou-2.png',
                 alt: '',
             },
             duration: '17:45-18:30',
