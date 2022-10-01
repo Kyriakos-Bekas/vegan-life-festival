@@ -39,7 +39,7 @@ export const sponsors = [
         name: 'Mega Meatless',
         prime: true,
         img: '/sponsors/mega-meatless.png',
-        link: 'mega-meetless',
+        link: 'mega-meatless',
     },
     {
         name: 'Βιοαγρός',
