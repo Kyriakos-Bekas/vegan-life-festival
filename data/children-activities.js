@@ -298,5 +298,5 @@ const sundayChildrenActivities = {
     ],
 };
 
-export const childrenActivities = saturdayChildrenActivities;
-// export const childrenActivities = sundayChildrenActivities;
+// export const childrenActivities = saturdayChildrenActivities;
+export const childrenActivities = sundayChildrenActivities;

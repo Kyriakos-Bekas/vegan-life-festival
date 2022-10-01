@@ -402,5 +402,5 @@ const sundaySpeeches = {
     ],
 };
 
-export const speeches = saturdaySpeeches;
-// export const speeches = sundaySpeeches;
+// export const speeches = saturdaySpeeches;
+export const speeches = sundaySpeeches;

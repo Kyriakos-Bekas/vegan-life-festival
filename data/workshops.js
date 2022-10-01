@@ -300,5 +300,5 @@ const sundayWorkshops = {
     ],
 };
 
-export const workshops = saturdayWorkshops;
-// export const workshops = sundayWorkshops;
+// export const workshops = saturdayWorkshops;
+export const workshops = sundayWorkshops;
