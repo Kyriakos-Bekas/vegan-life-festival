@@ -1,10 +1,15 @@
 import { text } from '@/data/data';
 import { useLocaleContext } from '@/hooks/useLocaleContext';
+import { useEffect, useState } from 'react';
 import style from './Activities.module.scss';
 
 const Activities = () => {
     const { locale } = useLocaleContext();
-    const activities = text[locale].activities;
+    const [activities, setActivities] = useState(text[locale].activities);
+
+    useEffect(() => {
+        setActivities(text[locale].activities);
+    }, [locale]);
 
     return (
         <section

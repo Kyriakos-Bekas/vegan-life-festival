@@ -131,31 +131,34 @@ export const exhibitors = {
             slug: 'mega-meatless',
             webAddress: 'megasyeeros.gr/en/meatless',
             bio: [
-                'The new mega meatless series introduces us to the world of "alternative" meat. A world that promotes healthy eating, proposes new eating habits, respects natural resources and the environment by creating favorite dishes in a completely new, healthy and above all innovative way.',
+                'The mega meatless series introduces us to the world of "alternative" meat. A world that promotes healthy nutrition, suggests new eating habits, respects natural resources and the environment.',
+                'Soy free and gluten free products from legumes of high protein value that are a complete a source of protein equal to meat, low in calories, salt and saturated fat.',
+                'Also awarded as "Product of the Year" in the Vegan Frozen Food category Mega Meatless products are the ideal combination of taste and nutritional value for everyone.',
+                'Create recipes Easily and quickly that will surprise you with their deliciousness and nutritional value',
             ],
             products: [
                 {
                     title: 'MEGA MEATLESS YEEROS',
                     description:
-                        'The one and only plant-based, soy-free yeeros that is available in pre-baked form. Being a worldwide success, Mega Meatless yeeros offers delicious taste in otherwise quick and easy recipes.',
+                        'The first and only plant-based, soy free and  pre-cooked gyros. A global innovation that offers to everybody  deliciousness in quick and easy recipes.',
                     img: 'mega-meatless-product-1.png',
                 },
                 {
                     title: 'MEGA MEATLESS KEFTEDAKIA',
                     description:
-                        'Delicious, juicy and 100% plant-based, Mega Meatless Keftedakia are the perfect meal for the whole family. A new recipe that combines Greek tradition with present nutrition standards',
+                        'Delicious, fluffy, made from 100% plant-based ingredients, Mega Meatless Keftedakia give their own delicious answer to the most demanding ones and become an ideal meal for the whole family. An innovative proposal reminiscent of Greece and places modern nutrition in a prominent position in your kitchen.',
                     img: 'mega-meatless-product-2.png',
                 },
                 {
                     title: 'MEGA MEATLESS NUGGETS',
                     description:
-                        'A perfect quality product with an amazing taste! The crispy, tasty nuggets are the perfect choice for the entire family. Fit for appetizers or as a main dish!',
+                        'An excellent quality product, with an incredible taste! The delicious and perfectly crispy nuggets are the ideal choice of enjoyment for the whole family. Perfect as an appetizer or main dish!',
                     img: 'mega-meatless-product-3.png',
                 },
                 {
                     title: 'MEGA MEATLESS FALAFEL',
                     description:
-                        'This Egyptian culinary recipe is here to satisfy even the most demanding palates with is authentic taste',
+                        'A proposal that comes from the Egyptian kitchen to satisfy even the most demanding ones with its authentic taste.',
                     img: 'mega-meatless-product-4.png',
                 },
             ],
